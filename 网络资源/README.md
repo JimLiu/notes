@@ -33,6 +33,6 @@
 9. 字典：
    * 在线词典：https://glosbe.com/
 10. guge 搜索: 
-      * https://guge.schove.com/
+   * https://guge.schove.com/
       
  
