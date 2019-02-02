@@ -22,6 +22,7 @@
 	 * 国家数据：http://data.stats.gov.cn/index.htm
 5. 音乐：
 	 * 国家大剧院： http://www.ncpa-classic.com/gdyysx/index.shtml
+	 * Jamendo Music: https://www.jamendo.com/start
 6. 名画：
 	 * https://gallerix.asia/
 
