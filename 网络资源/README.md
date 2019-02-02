@@ -32,5 +32,7 @@
    * http://www.eatbrie.com/
 9. 字典：
    * 在线词典：https://glosbe.com/
-10. gg search:
-   * https://guge.schove.com/
+10. guge 搜索: 
+      * https://guge.schove.com/
+      
+ 
