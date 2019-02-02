@@ -30,3 +30,5 @@
 8. 海报：
    * http://www.impawards.com/
    * http://www.eatbrie.com/
+9. 字典：
+   * 在线词典：https://glosbe.com/
