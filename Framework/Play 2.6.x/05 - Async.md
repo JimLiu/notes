@@ -9,4 +9,4 @@ def fun() = Action {
 	Ok("result")
 }
 ```
-2. 
+2. 建议不要使用默认的
