@@ -32,7 +32,7 @@ class HomeController @Inject()(myExecutionContext: MyExecutionContext, val cc: C
 3. Action 本身就是异步的
 4. Play 的线程池(代码如上，配置如下)
 ```
-my-context {
+my.executor {
   fork-join-executor {
     parallelism-factor = 20.0
     parallelism-max = 200
