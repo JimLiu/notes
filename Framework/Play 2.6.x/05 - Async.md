@@ -29,4 +29,4 @@ class HomeController @Inject()(myExecutionContext: MyExecutionContext, val cc: C
   }
 }
 ```
-3. Action 
+3. Action 本身就是异步的
