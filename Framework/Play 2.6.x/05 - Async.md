@@ -29,4 +29,4 @@ class HomeController @Inject()(myExecutionContext: MyExecutionContext, val cc: C
   }
 }
 ```
-3. 
+3. Action 
