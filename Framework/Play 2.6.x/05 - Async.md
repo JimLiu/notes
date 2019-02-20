@@ -9,4 +9,24 @@ def fun() = Action {
 	Ok("result")
 }
 ```
-2. 建议不要使用默认的
+2. 建议不要使用默认的环境执行异步操作，可以新建自己的线程池，在新的线程池中执行异步的代码
+```scala
+import play.api.libs.concurrent.CustomExecutionContext
+
+// Make sure to bind the new context class to this trait using one of the custom
+// binding techniques listed on the "Scala Dependency Injection" documentation page
+trait MyExecutionContext extends ExecutionContext
+
+class MyExecutionContextImpl @Inject()(system: ActorSystem)
+  extends CustomExecutionContext(system, "my.executor") with MyExecutionContext
+
+class HomeController @Inject()(myExecutionContext: MyExecutionContext, val controllerComponents: ControllerComponents) extends BaseController {
+  def index = Action.async {
+    Future {
+      // Call some blocking API
+      Ok("result of blocking call")
+    }(myExecutionContext)
+  }
+}
+```
+
