@@ -5,6 +5,8 @@
 def fun() = Action {
 	Future{
 		xxxxxx
-	}
+	}(myContext)
+	Ok("result")
 }
 ```
+
