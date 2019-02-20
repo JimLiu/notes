@@ -30,3 +30,5 @@ class HomeController @Inject()(myExecutionContext: MyExecutionContext, val cc: C
 }
 ```
 3. Action 本身就是异步的
+4. Play 的线程池
+
