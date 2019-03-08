@@ -13,4 +13,4 @@ object Greeter {
 }
 ```
 * 位置透明:
-在akka 中， 你不能通过 new 这个关键字来
+在akka 中， 你不能通过 new 这个关键字来创建 akka, 相反的需要通过 工厂来创建，并且返回的是一个 actorRef 而不是一个真正的 actor, 
