@@ -12,4 +12,5 @@ object Greeter {
   case object Greet
 }
 ```
+* 位置透明:
 
