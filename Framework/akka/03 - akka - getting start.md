@@ -9,4 +9,5 @@ actor 被处理成具有树形结构模型。
 parent actor 出错，child actor 递归的被关闭
 child actor 出错，parent actor 知道如何处理
 
+![akka-actor-tree](../../imgs/akka-actor-tree.jpg)
 
