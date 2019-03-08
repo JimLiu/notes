@@ -31,5 +31,18 @@ val goodDayGreeter: ActorRef =
 ```
 **错误**
 ```scala
+// Create the 'helloAkka' actor system
+        val system: ActorSystem = ActorSystem("helloAkka")
 
+        //#create-actors
+        // Create the printer actor
+        val printer: ActorRef = system.actorOf(Printer.props, "printerActor")
+
+        // Create the 'greeter' actors
+        val howdyGreeter: ActorRef =
+            system.actorOf(Greeter.props("Howdy", printer), "howdyGreeter") //与下面的相同程序会报错
+        val helloGreeter: ActorRef =
+            system.actorOf(Greeter.props("Hello", printer), "howdyGreeter") //**错误
+        val goodDayGreeter: ActorRef =
+            system.actorOf(Greeter.props("Good day", printer), "goodDayGreeter")
 ```
