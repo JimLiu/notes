@@ -15,5 +15,18 @@ object Greeter {
 * 位置透明:
 在akka 中， 你不能通过 new 这个关键字来创建 akka, 相反的需要通过 工厂来创建，并且返回的是一个 actorRef 而不是一个真正的 actor, 这样带来了很多的便捷。
 xxx
-* actorSystem 作为 actor 的工厂，也管理着 actor 的生命周期。actor 和 actorSyst
+* actorSystem 作为 actor 的工厂，也管理着 actor 的生命周期。actor 和 actorSystem 的 name 需要是唯一的。
+   
+```scala
+// Create the printer actor
+val printer: ActorRef = system.actorOf(Printer.props, "printerActor")
+
+// Create the 'greeter' actors
+val howdyGreeter: ActorRef =
+  system.actorOf(Greeter.props("Howdy", printer), "howdyGreeter")
+val helloGreeter: ActorRef =
+  system.actorOf(Greeter.props("Hello", printer), "helloGreeter")
+val goodDayGreeter: ActorRef =
+  system.actorOf(Greeter.props("Good day", printer), "goodDayGreeter")
+```
 
