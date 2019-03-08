@@ -42,7 +42,9 @@ val goodDayGreeter: ActorRef =
         val howdyGreeter: ActorRef =
             system.actorOf(Greeter.props("Howdy", printer), "howdyGreeter") //与下面的相同程序会报错
         val helloGreeter: ActorRef =
-            system.actorOf(Greeter.props("Hello", printer), "howdyGreeter") //**错误
+            system.actorOf(Greeter.props("Hello", printer), "howdyGreeter") //错误
         val goodDayGreeter: ActorRef =
             system.actorOf(Greeter.props("Good day", printer), "goodDayGreeter")
 ```
+## 异步通信：
+
