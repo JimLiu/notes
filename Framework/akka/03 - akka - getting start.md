@@ -5,3 +5,5 @@
 1. 任务本身出错
 actor 返回调用者错误信息
 1. actor 出错
+parent actor 出错，child actor 递归的被关闭
+child actor 出错，parent actor 知道如何处理
