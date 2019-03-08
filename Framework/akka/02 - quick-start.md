@@ -13,4 +13,4 @@ object Greeter {
 }
 ```
 * 位置透明:
-
+在akka 中， 你不能通过 new 这个关键字来
