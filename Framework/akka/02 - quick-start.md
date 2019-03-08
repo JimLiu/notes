@@ -52,4 +52,7 @@ actor 是响应式的，也是事件驱动的。actors 之间的通信是异步�
 
 ### 测试 actor
 1. https://developer.lightbend.com/guides/akka-quickstart-scala/testing-actors.html
-2. 
+2. https://doc.akka.io/docs/akka/current/testing.html?language=scala
+
+### 
+
