@@ -48,4 +48,4 @@ val goodDayGreeter: ActorRef =
             system.actorOf(Greeter.props("Good day", printer), "goodDayGreeter")
 ```
 ### 异步通信
-
+actor 是响应式的，也是事件驱动的。
