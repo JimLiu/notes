@@ -1,4 +1,5 @@
 
+### 概念
 * 项目: zyb-code: scala.akka
 * 消息必需是不可变的，因为他们会在不同的线程中共享。
 * 消息最好写在 actor 的伴生对象中。
@@ -12,7 +13,7 @@ object Greeter {
   case object Greet
 }
 ```
-* 位置透明:
+### 位置透明:
 在akka 中， 你不能通过 new 这个关键字来创建 akka, 相反的需要通过 工厂来创建，并且返回的是一个 actorRef 而不是一个真正的 actor, 这样带来了很多的便捷。
 xxx
 * actorSystem 作为 actor 的工厂，也管理着 actor 的生命周期。actor 和 actorSystem 的 name 需要是唯一的。
@@ -46,5 +47,5 @@ val goodDayGreeter: ActorRef =
         val goodDayGreeter: ActorRef =
             system.actorOf(Greeter.props("Good day", printer), "goodDayGreeter")
 ```
-## 异步通信：
+### 异步通信
 
