@@ -42,4 +42,4 @@
 11. 邮件投诉：http://sswz.spb.gov.cn/
 12. vscode 插件：https://github.com/deepred5/daily-anime
 13. 翻译助手：http://dict.cnki.net/dict_result.aspx
- 
+14. 扣图网站：https://www.remove.bg/ 
