@@ -14,6 +14,7 @@
    * 迅影网：http://www.xunyingwang.com/
    * 宅腐资源网：http://www.zhaifu.cc/
    * 记录片-艺术家: https://www.bilibili.com/video/av17836600/?from=search&seid=14375206664244401059
+	
 3. 课本
    * 高中数学课本：https://www.jianshu.com/p/7440818852c3
    * 高中其它课本：
@@ -36,5 +37,5 @@
       * https://guge.schove.com/
 11. 邮件投诉：http://sswz.spb.gov.cn/
 12. vscode 插件：https://github.com/deepred5/daily-anime
-13. 
+13. 翻译助手：http://dict.cnki.net/dict_result.aspx
  
