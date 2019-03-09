@@ -15,6 +15,9 @@
    * 宅腐资源网：http://www.zhaifu.cc/
    * 记录片-艺术家: https://www.bilibili.com/video/av17836600/?from=search&seid=14375206664244401059
    * 电影资源：https://www.cupfox.com/
+   * http://www.6vhao.tv/mj/
+   * https://eztv.io/
+   * https://www.meijutt.com/
 3. 课本
    * 高中数学课本：https://www.jianshu.com/p/7440818852c3
    * 高中其它课本：
