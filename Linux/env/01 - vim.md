@@ -1,0 +1,1 @@
+1. vim 插件：https://linux.cn/article-10563-shareweibo.html
