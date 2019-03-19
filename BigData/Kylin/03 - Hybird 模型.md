@@ -24,4 +24,4 @@ Hybird 模型是由多个其它的模型混合而成的。
 &ensp;&ensp; 如果 hybird 依赖的 cube 能够响应对应的查询，这个 hybird 模型会自动选中。
 2. hybird 模型如何响应？
 &ensp;&ensp; hybird 模型会分发查询到对应的子 cube 中。如果某个子 cube 满足所有的维度，他的结果就会被返还给用户。最后 kylin 会从 hybird 聚合所有的结果, 返回给用户。
-3
+3. hybird 模型不要求所有的 cube 有
