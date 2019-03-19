@@ -13,6 +13,6 @@
 #### Hybird Model
 ::: hljs-center
 
-![Hybird](../../imgs/)
+![Hybird](../../imgs/Hybird.png)
 
 :::
