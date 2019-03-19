@@ -16,4 +16,5 @@
 ![Hybird](../../imgs/Hybird.png)
 
 :::
-Hy bi
+Hybird 模型是由多个其它的模型混合而成的。
+他相当于其它
