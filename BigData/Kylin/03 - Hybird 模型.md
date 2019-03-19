@@ -13,7 +13,7 @@
 #### Hybird Model
 ::: hljs-center
 
-![HyBird](../../imgs/HyBird.png)
+![HyBird](../../imgs/HyBird.PNG)
 
 :::
 Hybird 模型是由多个其它的模型混合而成的。
