@@ -27,4 +27,4 @@ Hybird 模型是由多个其它的模型混合而成的。
 3. hybird 模型不要求所有的 cube 有相同的数据模型。
 4. hybird 模型不支持嵌套。hybird 模型的实现只能依赖于子 cube 不能依赖于 子 hybird 模型。
 5. hybird 作用主要是用来实现 类似于 union 这种 操作的。
-6. 如果 hybird 的子 cube 被置为 diable
+6. 如果 hybird 的子 cube 被置为 disable 了 ，那么这个 cube 将不会被查询
