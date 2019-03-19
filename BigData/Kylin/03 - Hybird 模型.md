@@ -13,8 +13,8 @@
 #### Hybird Model
 ::: hljs-center
 
-
+![Hybird](../../imgs/HyBird.png)
 
 :::
 Hybird 模型是由多个其它的模型混合而成的。
-他相当于其它
+他相当于其它其它表的视图。 Hybird 模型会分发
