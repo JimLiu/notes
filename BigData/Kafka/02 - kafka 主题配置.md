@@ -1,1 +1,1 @@
-![kafka 主题配置](../../imgs/Kafka主题配置.png)
+![kafka 主题配置](../../imgs/Kafka_topic_config.png)
