@@ -1,0 +1,1 @@
+![Kylin_Hdfs](imgs/Kylin_HDFS.png)
