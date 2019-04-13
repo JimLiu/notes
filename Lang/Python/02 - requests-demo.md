@@ -19,9 +19,9 @@ def json2Tuple(x):
 
 
 def sendDing(resTuples, msg):
-    url = 'http://192.168.6.34:8090/proxy/api/dingrobot?token=102ae1bc66094efaf2e7022b3fa9a964fcfe0f7364d936d04bdc25fe7fb629ec'
+    url = 'xxxurl'
     headers = {"Content-type": "application/json", "charset": "utf-8"}
-    dingMsg = {"msgtype": "text", "at": {"atMobiles": ["15620697239"], "isAtAll": False}}
+    dingMsg = {"msgtype": "text", "at": {"atMobiles": ["xxx"], "isAtAll": False}}
     resTuples['msg'] = msg
     dingMsg['text'] = {
         "content": json.dumps(resTuples, sort_keys=True,
@@ -56,7 +56,7 @@ def resultTuples(jobs):
 
 
 def getJsonObj():  # [{},{}]
-    url1 = "http://192.168.33.112:7070/kylin/api/jobs"
+    url1 = "http://ip:port/kylin/api/jobs"
     auth = ('ADMIN', 'KYLIN')
     params = [("projectName", "realtime_flow"),
               # ("cubeName","cube_kylin_realtime_flow_official_check"),
