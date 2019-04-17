@@ -1,6 +1,5 @@
 hive create table
 ```sql
-
 CREATE EXTERNAL TABLE `mid.dwd_yike_action`(
     xxx string
 )
