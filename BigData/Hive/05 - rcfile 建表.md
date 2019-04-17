@@ -1,0 +1,15 @@
+```sql
+
+CREATE EXTERNAL TABLE `mid.dwd_yike_action`(
+    xxx string
+)
+COMMENT 'xxx'
+PARTITIONED BY ( 
+  `dt` string COMMENT 'xxx', 
+  `tb` string COMMENT 'xxx')
+ROW FORMAT SERDE
+    'org.apache.hadoop.hive.serde2.columnar.ColumnarSerDe'
+WITH SERDEPROPERTIES ( 'field.delim' = '\1' , 'collected.delim' = '\2', 'mapkey.delim' = '\3', 'line.delim' = '\n')
+   STORED AS rcfile;
+
+```
