@@ -11,5 +11,4 @@ ROW FORMAT SERDE
     'org.apache.hadoop.hive.serde2.columnar.ColumnarSerDe'
 WITH SERDEPROPERTIES ( 'field.delim' = '\1' , 'collected.delim' = '\2', 'mapkey.delim' = '\3', 'line.delim' = '\n')
    STORED AS rcfile;
-
 ```
