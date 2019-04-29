@@ -41,7 +41,10 @@
 checkpoint state 通常与checkpoint 机制结合使用
 1. 轻量级的容错机制
 2. 保证 exactly-once 语义（保证flink 内部失败，不保证外部的 exctly-once）
-3. 用于内部失败的
+3. 用于内部失败的恢复
+4. 基本原理:
+	* 通过往 source 注入 barrier
+	* barrier 作为 checkpoint 的标志
 
 
 
