@@ -14,7 +14,11 @@ TaskManager 是一个进程，Slots 由各个线程执行
 	4. 适当设置可以减少每个 slot 运行的线程数，从而整体上减少机器的负载
 3. slots && parallelism
 4. OperatorChain && Task
-	1
+	* OperatorChain 的优点
+		1. 减少线程的切换
+		2. 减少序列化与反序列化
+		3. 减少延迟并且提高吞吐能力
+	* OperatorChain
 ### 角色间通信（akka）
 ### 数据的传输（Netty）
 
