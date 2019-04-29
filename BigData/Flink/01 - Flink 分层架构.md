@@ -46,7 +46,9 @@ checkpoint state 通常与checkpoint 机制结合使用
 	* 通过往 source 注入 barrier
 	* barrier 作为 checkpoint 的标志
 
-
+### savepoint
+1. 流式处理过程中的状态历史版本
+2. 
 
 
 
