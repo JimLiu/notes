@@ -7,3 +7,6 @@
 5. Docker
 6. Kubernetes
 7. AWS
+### on YARN
+1. ResourceManager
+2. 
