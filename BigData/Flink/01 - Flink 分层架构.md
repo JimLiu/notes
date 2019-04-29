@@ -48,7 +48,11 @@ checkpoint state 通常与checkpoint 机制结合使用
 
 ### savepoint
 1. 流式处理过程中的状态历史版本
-2. 
+2. 具有可以replay的功能
+3. 外部恢复（应用重启和升级）
+4. 两种方式触发
+	* Cannel with savepoint
+	* 手动
 
 
 
