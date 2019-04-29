@@ -35,7 +35,7 @@
 1. 什么是状态，状态托管
 2. Operator State
 3. Keyed State
-4. State Backend ()
+4. State Backend (rocksdb + hdfs)
 
 
 
