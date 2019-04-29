@@ -10,4 +10,8 @@
 	SQL 构建于 Table 之上，需要构建 Table 环境。
 	Table 可以与 DataSet 与 DataStream 进行相互的转换。
 	Streaming SQL 不同于存储的 sql, 最终会转化成流式执行计划。
-### Flink 构建的
+### Flink 构建的流程
+1. 构建计算环境
+2. 创建 Source
+3. 对于数据进行不同的转换
+4. 对于结果进行Sink
