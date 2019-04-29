@@ -23,6 +23,11 @@
 	Time Window // 时间的窗口
 	自定义 Window
 3. Window 聚合日常会遇到的问题:
+	数据过热，延迟数据丢弃，反压等问题
+
+### Time 类型
+1. Event Time
+2. 
 
 
 
