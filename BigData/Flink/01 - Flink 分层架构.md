@@ -10,6 +10,7 @@
 	SQL 构建于 Table 之上，需要构建 Table 环境。
 	Table 可以与 DataSet 与 DataStream 进行相互的转换。
 	Streaming SQL 不同于存储的 sql, 最终会转化成流式执行计划。
+
 ### Flink 构建的流程
 1. 构建计算环境
 2. 创建 Source
@@ -28,7 +29,7 @@
 ### Time 类型
 1. Event Time // 事件本身的时间
 2. Ingestion Time // 进行Flink 的时间
-3. Processing Time // 
+3. Processing Time // window 处理的时间
 
 
 
