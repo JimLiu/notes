@@ -8,7 +8,8 @@ TaskManager 是一个进程，Slots 由各个线程执行
 	保证所有 i-th 的 sub-tasks 在同一个 slots
 	主要用于迭代流
 2. SlotSharingGroup
-	1. 
+	1. 保证同一个 group 的 i-th 的sub-tasks 共享同一个 slots
+	2. 片子默认的 
 ### 角色间通信（akka）
 ### 数据的传输（Netty）
 
