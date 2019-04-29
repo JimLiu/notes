@@ -26,8 +26,9 @@
 	数据过热，延迟数据丢弃，反压等问题
 
 ### Time 类型
-1. Event Time
-2. 
+1. Event Time // 事件本身的时间
+2. Ingestion Time // 进行Flink 的时间
+3. Processing Time // 
 
 
 
