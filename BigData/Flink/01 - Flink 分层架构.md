@@ -51,8 +51,8 @@ checkpoint state 通常与checkpoint 机制结合使用
 2. 具有可以replay的功能
 3. 外部恢复（应用重启和升级）
 4. 两种方式触发
-	* Cannel with savepoint
-	* 手动
+	* Cancel with savepoint
+	* 手动主动触发
 
 
 
