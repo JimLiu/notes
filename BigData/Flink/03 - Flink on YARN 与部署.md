@@ -9,4 +9,7 @@
 7. AWS
 ### on YARN
 1. ResourceManager
-2. 
+2. NodeManager
+3. AppMaster
+4. Container
+5. Yarn Session
