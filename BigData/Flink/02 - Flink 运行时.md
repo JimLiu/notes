@@ -12,6 +12,7 @@ TaskManager 是一个进程，Slots 由各个线程执行
 	2. 片子默认的 group 为 default
 	3. 怎么确定一个算子的 SlotSharingGroup(根据input的group和自身是否设置group共同确定)
 	4. 适当设置可以减少每个 slot 运行的线程数，从而整体上减少机器的负载
+3. slot
 ### 角色间通信（akka）
 ### 数据的传输（Netty）
 
