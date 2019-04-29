@@ -38,6 +38,7 @@
 4. State Backend (rocksdb + hdfs)
 
 ### checkpoint
+checkpoint state 通常与checkpoint 机制共用
 1. 
 
 
