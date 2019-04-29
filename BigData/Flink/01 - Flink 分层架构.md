@@ -38,8 +38,10 @@
 4. State Backend (rocksdb + hdfs)
 
 ### checkpoint
-checkpoint state 通常与checkpoint 机制共用
-1. 
+checkpoint state 通常与checkpoint 机制结合使用
+1. 轻量级的容错机制
+2. 保证 exactly-once 语义（保证flink 内部失败）
+3. 
 
 
 
