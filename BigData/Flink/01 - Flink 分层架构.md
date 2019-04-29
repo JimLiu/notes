@@ -17,3 +17,8 @@
 4. 对于结果进行Sink
 
 ### window
+1. 什么是 window
+2. Window 类型：
+	Count Window
+	Time Window
+	自定义 Window
