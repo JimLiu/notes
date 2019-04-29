@@ -19,6 +19,16 @@
 ### window
 1. 什么是 window
 2. Window 类型：
-	Count Window
-	Time Window
+	Count Window // 事件的条数
+	Time Window // 时间的窗口
 	自定义 Window
+3. Window 聚合日常会遇到的问题:
+
+
+
+
+
+
+
+
+
