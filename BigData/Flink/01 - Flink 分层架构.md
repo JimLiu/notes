@@ -6,4 +6,5 @@
 2. core APIs
 	DataStream // 流式数据
 	DataSet // 离线的计算
-3. 
+3. TABLE & SQL
+	
