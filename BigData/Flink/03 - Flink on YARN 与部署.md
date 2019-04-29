@@ -13,4 +13,8 @@
 3. AppMaster
 4. Container
 5. Yarn Session
-### 
+### Job 的启动过程
+1. Graph 不同阶段的转换
+2. Scheduler
+3. Blob服务
+4. HA 保证
