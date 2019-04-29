@@ -7,4 +7,5 @@
 	DataStream // 流式数据
 	DataSet // 离线的计算
 3. TABLE & SQL
-	
+	SQL 构建于 Table 之上，需要构建 Table 环境。
+	Table 可以与 DataSet 与 DataStream 
