@@ -9,7 +9,6 @@
    * https://manybooks.net/
 2. 电影网址
    * 疯狂影视：http://ifkdy.com/
-   * 胖鸟影视：http://www.pniao.com/
    * 降龙影院：http://xlyy100.com/
    * 迅影网：http://www.xunyingwang.com/
    * 宅腐资源网：http://www.zhaifu.cc/
