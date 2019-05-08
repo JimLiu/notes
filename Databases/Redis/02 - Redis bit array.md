@@ -8,5 +8,5 @@ setbit $bitArrayName $index $value
 #### getbit 将对应索引位置值获取出来
 3. getbit jingqi_bitmap_1 0                // (integer) 1
 4. getbit jingqi_bitmap_1 1                // (integer) 0
-#### bitcount 获取 bitarray 的数组
-5. 
+#### bitcount 获取 bitarray 1 的个数
+5. bitcount jingqi_bitmap_1                // (integer) 4
