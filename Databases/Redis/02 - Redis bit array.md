@@ -10,3 +10,6 @@ setbit $bitArrayName $index $value
 4. getbit jingqi_bitmap_1 1                // (integer) 0
 #### bitcount 获取 bitarray 1 的个数
 5. bitcount jingqi_bitmap_1                // (integer) 4
+#### bittop 命令
+x = 0000 1011
+6. 
