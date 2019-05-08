@@ -17,7 +17,7 @@ y = 0000 0110
 7. setbit y 2 1; setbit y 1 1
 z = 0000 0101
 8. setbit z 2 1; setbit z 0 1
-
+9. setbit 
 9. bitop and and-result x y z // 0000 0000
 10. bitop or or-result x y z // 0000 1111
 11. bitop xor xor-result x y z // 0000 1000
