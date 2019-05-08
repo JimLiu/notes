@@ -15,4 +15,8 @@ x = 0000 1011
 6. setbit x 3 1; setbit x 1 1; setbit x 0 1
 y = 0000 0110
 7. setbit y 2 1; setbit y 1 1
-z 
+z = 0000 0101
+8. setbit z 2 1; setbit z 0 1
+
+9. bitop and and-result x y z # 0000 0000
+10. b
