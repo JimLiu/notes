@@ -23,3 +23,4 @@ value = 0000 1001
 11. bitop or or-result x y z // 0000 1111
 12. bitop xor xor-result x y z // 0000 1000
 13. bitop not not-value value //1111 0110
+
