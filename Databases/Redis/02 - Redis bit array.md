@@ -18,7 +18,8 @@ y = 0000 0110
 z = 0000 0101
 8. setbit z 2 1; setbit z 0 1
 value = 0000 1001
-9. setbit value 0 1; setbit value 3 1  //
+9. setbit value 0 1; setbit value 3 1
 10. bitop and and-result x y z // 0000 0000
 11. bitop or or-result x y z // 0000 1111
 12. bitop xor xor-result x y z // 0000 1000
+13. bitop not not-value value //1111 0110
