@@ -41,3 +41,5 @@
 12. vscode 插件：https://github.com/deepred5/daily-anime
 13. 翻译助手：http://dict.cnki.net/dict_result.aspx
 14. 扣图网站：https://www.remove.bg/ 
+15. 纸飞机：http://www.madio.net/forum.php?mod=viewthread&tid=441157&fromuid=1534206
+16. 中国古代史地图：
