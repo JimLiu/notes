@@ -7,4 +7,6 @@
 * java 中的各种锁：https://juejin.im/post/5c5cf03ef265da2dd218a4c8
 * ThreadLocal源码解析，内存泄露以及传递性：
 	https://juejin.im/post/5cd820dff265da03594890fb
+* 数据库连接池 druid:
+	https://github.com/alibaba/druid?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
 * 
