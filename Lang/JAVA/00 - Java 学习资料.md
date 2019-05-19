@@ -11,4 +11,5 @@
 	https://github.com/alibaba/druid?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
 * 内存模型是怎么解决缓存一致性问题的？
 	https://juejin.im/post/5cc264b76fb9a0324b27c374
-* java 类加载
+* java 类加载机制：
+	http://www.codeceo.com/article/java-classloader-mechanism.html
