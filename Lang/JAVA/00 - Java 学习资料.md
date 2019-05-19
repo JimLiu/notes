@@ -13,3 +13,4 @@
 	https://juejin.im/post/5cc264b76fb9a0324b27c374
 * java 类加载机制：
 	http://www.codeceo.com/article/java-classloader-mechanism.html
+* 线程池的设计原理是什么？：https://www.itcodemonkey.com/article/14015.html
