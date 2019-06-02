@@ -7,4 +7,6 @@ vim 插件：https://linux.cn/article-10563-shareweibo.html
 	:sp 横分屏
 * 全局替换
 	:% s/foo/bar/g
-* 
+* Visual 模式
+	* V: 选择行
+	* ctrl + v: 
