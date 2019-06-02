@@ -1,4 +1,5 @@
 
+参考url: https://developer.lightbend.com/guides/akka-quickstart-scala/
 ### 概念
 * 项目: zyb-code: scala.akka
 * 消息必需是不可变的，因为他们会在不同的线程中共享。
