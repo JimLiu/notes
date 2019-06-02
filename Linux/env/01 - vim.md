@@ -6,4 +6,5 @@ vim 插件：https://linux.cn/article-10563-shareweibo.html
 	:vs 竖分屏
 	:sp 横分屏
 * 全局替换
-	:%s/foo/bar/g
+	:% s/foo/bar/g
+* 
