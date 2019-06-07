@@ -1,6 +1,7 @@
 ```xml
 <build>
         <sourceDirectory>src/main/scala</sourceDirectory>
+	<testSourceDirectory>src/test/scala</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
@@ -46,6 +47,26 @@
                 <configuration>
                     <skip>true</skip>
                     <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+
+	    <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>distro-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <descriptors>
+                        <descriptor>assembly.xml</descriptor>
+                    </descriptors>
                 </configuration>
             </plugin>
         </plugins>
