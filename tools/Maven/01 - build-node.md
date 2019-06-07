@@ -1,7 +1,16 @@
 ```xml
-<build>
+
+    <groupId>com.windTa1ker.bigdata</groupId>
+    <artifactId>Flink</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <scala.version>2.11.12</scala.version>
+    </properties>
+
+    <build>
         <sourceDirectory>src/main/scala</sourceDirectory>
-	<testSourceDirectory>src/test/scala</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
@@ -39,7 +48,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -49,8 +57,7 @@
                     <skipTests>true</skipTests>
                 </configuration>
             </plugin>
-
-	    <plugin>
+            <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.0.0</version>
                 <executions>
@@ -71,4 +78,5 @@
             </plugin>
         </plugins>
     </build>
+    
 ```
