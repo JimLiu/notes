@@ -7,3 +7,4 @@
 * java 中的各种锁：https://juejin.im/post/5c5cf03ef265da2dd218a4c8
 * 线程池的设计原理是什么？:https://www.itcodemonkey.com/article/14015.html
 * 一篇文章了解 Java 反射和应用 : https://mp.weixin.qq.com/s/0fjNYaEWEgxM3F8jZceygw
+* java 内存区域：http://www.imooc.com/article/70509?mc_marking=2f9e9fa52222811e1ccd7f77b1624dc7&mc_channel=weibo
