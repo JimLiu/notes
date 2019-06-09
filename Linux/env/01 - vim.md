@@ -10,3 +10,4 @@ vim 插件：https://linux.cn/article-10563-shareweibo.html
 * Visual 模式
 	* V: 选择行
 	* ctrl + v: 方块选择
+###　用 vim 
