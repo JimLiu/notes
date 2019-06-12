@@ -59,6 +59,10 @@
                     <execution>
                         <id>compile-scala</id>
                         <phase>compile</phase>
+			<configuration>
+                            <source>1.8</source>
+                            <target>1.8</target>
+                        </configuration>
                         <goals>
                             <goal>add-source</goal>
                             <goal>compile</goal>
