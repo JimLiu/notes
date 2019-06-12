@@ -8,6 +8,46 @@
         <scala.version>2.11.12</scala.version>
     </properties>
 
+    <repositories>
+    <repository>
+      <id>central</id>
+      <name>Central Repository</name>
+      <url>http://repo.maven.apache.org/maven2</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+
+    <repository>
+      <id>conjars</id>
+      <url>http://conjars.org/repo/</url>
+    </repository>
+
+    <repository>
+      <id>cloudera</id>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+    </repository>
+
+    <repository>
+      <id>shibboleth</id>
+      <url>https://build.shibboleth.net/nexus/content/repositories/releases/</url>
+    </repository>
+
+    <repository>
+      <id>nexus</id>
+      <name>Kyligence Repository</name>
+      <url>http://repository.kyligence.io:8081/repository/maven-public/
+      </url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>
         <plugins>
