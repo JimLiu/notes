@@ -11,3 +11,4 @@
 * threadLocal 分析：https://juejin.im/post/5ba468135188255c8138efc4
 * idea 设置：https://www.itcodemonkey.com/article/7246.html
 * Java中4大基本加密算法解析：http://www.codeceo.com/article/java-4-encryption.html
+* 手写一个jedis pool:https://toutiao.io/posts/v9zeiv
