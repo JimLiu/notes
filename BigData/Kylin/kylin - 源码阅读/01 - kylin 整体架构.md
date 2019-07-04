@@ -4,3 +4,4 @@
 ![kylin 概览](../imgs/kylin_overview.PNG)
 
 :::
+#### Kylin 插件架构
