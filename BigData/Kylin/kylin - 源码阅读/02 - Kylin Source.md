@@ -33,14 +33,12 @@ import org.apache.kylin.metadata.model.TableDesc;
 public interface ISource extends Closeable {
 
     /** 
-     * Return an explorer to sync table metadata from the data source.
+     * 返回一个数据源的元数据客户端.
      */
     ISourceMetadataExplorer getSourceMetadataExplorer();
 
     /**
-     * Return an adaptor that implements specified interface as requested by the build engine.
-     * The IMRInput in particular, is required by the MR build engine.
-     * 返回一个对象, 实现指定的 IN 接口, 同时适配不同的构建引擎
+     *返回数据源，同时适配了不同的构建
      */
     <I> I adaptToBuildEngine(Class<I> engineInterface);
 
