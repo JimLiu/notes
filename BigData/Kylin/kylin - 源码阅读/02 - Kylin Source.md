@@ -8,5 +8,6 @@
 (1): 通过继承的方式实现适配器模式。(也是 Kylin 采用的方法)
 ![extends](../imgs/adapter_extend.png)
 (2): 通过委托的方式实现适配器模式
+![extends]
 3. Builder 模式
 
