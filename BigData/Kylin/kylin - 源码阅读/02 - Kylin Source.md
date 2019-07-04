@@ -38,12 +38,12 @@ public interface ISource extends Closeable {
     ISourceMetadataExplorer getSourceMetadataExplorer();
 
     /**
-     *返回数据源，同时适配了不同的构建
+     * 返回数据源，同时这个数据源适配了指定的构建引擎
      */
     <I> I adaptToBuildEngine(Class<I> engineInterface);
 
     /**
-     * Return a ReadableTable that can iterate through the rows of given table.
+     * 返回一想可读的表，可以通过 rows 来迭代.
      */
     IReadableTable createReadableTable(TableDesc tableDesc, String uuid);
 
