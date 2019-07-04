@@ -18,8 +18,7 @@ PrintBanner 继承 Print 抽象类，组合 Banner 类。
   HiveTableMetaBuilder -> 生成 HiveTableMeta 对象
 
 #### ISource
-ISource 的两个主要实现类:  
-HiveSource, KafkaSource
+ISource 的两个主要实现类:  HiveSource, KafkaSource
 
 ```JAVA
 package org.apache.kylin.source;
