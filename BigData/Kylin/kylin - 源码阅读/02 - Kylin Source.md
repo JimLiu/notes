@@ -5,5 +5,6 @@
 --，EngineFactory, StorageFactory
 2. 适配器模式
 两种实现：
-(1):
+(1): 通过继承的方式实现适配器模式也是 Kylin 采用的方法
+(2): 通过委托的方式实现适配器模式
 3. Builder 模式
