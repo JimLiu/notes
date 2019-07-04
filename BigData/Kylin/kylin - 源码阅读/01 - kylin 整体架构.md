@@ -1,5 +1,6 @@
 ### Kylin
-Kylin 最重要的三个部分：数据源，
+Kylin 最重要的三个部分：数据源，构建引擎，数据存储
+Kylin 为了向前兼容，身后扩展，需要将各个组件
 
 #### Kylin 概览
 ![kylin 概览](../imgs/kylin_overview.PNG)
