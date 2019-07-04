@@ -50,17 +50,19 @@ public interface ISource extends Closeable {
     /**
      * Give the source a chance to enrich a SourcePartition before build start.
      * Particularly, Kafka source use this chance to define start/end offsets within each partition.
+     * 主要是指定表的分区相关信息。
      */
     SourcePartition enrichSourcePartitionBeforeBuild(IBuildable buildable, SourcePartition srcPartition);
 
     /**
      * Return an object that is responsible for deploying sample (CSV) data to the source database.
      * For testing purpose.
+     * 用于测试的，可以先不用理它。
      */
     ISampleDataDeployer getSampleDataDeployer();
 
     /**
-     * Unload table.
+     * Unload table. 卸载表。
      */
     void unloadTable(String tableName, String project) throws IOException;
 }
