@@ -12,4 +12,5 @@ PrintBanner 实现 Print 接口，继承 Banner 类。
 PrintBanner 继承 Print 抽象类，组合 Banner 类。
 ![extends](../imgs/adapter_delegation.png)
 3. Builder 模式
+HiveTableMetaBuilder
 
