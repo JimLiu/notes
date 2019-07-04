@@ -5,3 +5,4 @@
 
 :::
 #### Kylin 插件架构
+![Kylin 插件架构](../imgs/kylin_plugin_architecture.png)
