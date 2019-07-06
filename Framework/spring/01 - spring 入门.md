@@ -24,4 +24,11 @@
 		- 构建企业应用（spring mvc + spring + hibernate/ibatis）
 		- 单独使用 Bean 容器（Bean 管理）
 		- 单独使用 aop 进行切面编程
-		- 在互联
+		- 在互联网中的应用
+
+
+
+
+
+
+
