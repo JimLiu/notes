@@ -21,4 +21,7 @@
 		- 提供众多方便的应用的辅助类（jdbc template 等）
 		- 对于主流应用框架提供了良好的支持（hibernate）
 	* 适用范围
-		- 
+		- 构建企业应用（spring mvc + spring + hibernate/ibatis）
+		- 单独使用 Bean 容器（Bean 管理）
+		- 单独使用 aop 进行切面编程
+		- 在互联
