@@ -6,6 +6,5 @@
 	  ```JAVA
 	  public interface 
 	  ```
-
 	- 
 2. Spring 的注入方式
