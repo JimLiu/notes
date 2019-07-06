@@ -25,7 +25,7 @@ def sendDing(resTuples, msg):
     resTuples['msg'] = msg
     dingMsg['text'] = {
         "content": json.dumps(resTuples, sort_keys=True,
-                              indent=4, separators=(',', ': '), ensure_ascii=False) # .encode("utf-8")}
+                              indent=4, separators=(',', ': '), ensure_ascii=False).encode("utf-8")}
     requests.post(url, data=json.dumps(dingMsg), headers=headers)
 
 
