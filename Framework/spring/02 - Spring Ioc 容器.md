@@ -6,5 +6,6 @@
 	  ```JAVA
 	  public interface 
 	  ```
-	- 
+	- 控制反转
+	  
 2. Spring 的注入方式
