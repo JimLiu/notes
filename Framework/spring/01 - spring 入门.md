@@ -1,6 +1,8 @@
 1. 一些学习资源  
-	* http://spring.io
-	* http://projects.spring.io/spring-framework/
+	* Spring: http://spring.io
+	* Spring: http://projects.spring.io/spring-framework/
+	* Spring MVC: https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#spring-web
+	* Spring Framework Documentation: https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html
 2. spring 概况
 	* 为解决企业应用开发的复杂性而创建的，现在不只应用在企业应用的开发
 	* 是一个轻量级的控制反转（IoC）和面向切面（AOP）的窗口框架
