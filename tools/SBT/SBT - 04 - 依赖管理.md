@@ -16,7 +16,7 @@
 		"xxx" % "yyy" % "zzz",
 		......
 	)
-也可以用多行分开:
+也可以用多行分开
 
 	libraryDependencies += "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.4"
 
