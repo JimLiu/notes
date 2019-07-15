@@ -26,4 +26,6 @@
 	
 ##### 使用 sbt-assembly
 
-在 project 目录下面的 plugins.sbt 中添加
+在 project 目录下面的 plugins.sbt 中添加下面两行代码:
+	
+	resolvers += Resolver.url("artifactory", url("http://scalasbt.artifactoryonline.com"))
