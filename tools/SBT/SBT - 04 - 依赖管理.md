@@ -1,6 +1,6 @@
 ### 依赖管理
 	可管理依赖与不可管理依赖
-	libraryDependencies += groupID % artifactID % re
+	libraryDependencies += groupID % artifactID % version [% configuration]
 #### 不可管理依赖
 	将相应的 jar 包放在 lib/ 目录下面
 #### 可管理依赖
