@@ -3,4 +3,5 @@
 #### 不可管理依赖
 	将相应的 jar 包放在 lib/ 目录下面
 #### 可管理依赖
-	在 build.sbt 中 添加一行
+	在 build.sbt 中 添加一行 libraryDependencies:
+libraryDependencies += "net.sourceforge.htmlcleaner" % "htmlclean"
