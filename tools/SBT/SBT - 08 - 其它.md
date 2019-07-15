@@ -18,4 +18,5 @@
 
 #### 日志级别
 
-在 build.sbt 中设置 SBT 
+在 build.sbt 中设置 SBT 日志等级：
+	logLevel := Level.Debug //Level.Info, Warning, Error
