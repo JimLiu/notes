@@ -11,4 +11,5 @@ version := "1.0"
 
 scalaVersion := "2.11.12"' > build.sbt
 ```
-#### 
+#### 基于 Giter8
+GitHub: https://gitbub.com/n8han/giter8
