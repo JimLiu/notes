@@ -13,3 +13,4 @@ scalaVersion := "2.11.12"' > build.sbt
 ```
 #### 基于 Giter8
 GitHub: https://github.com/n8han/giter8/wiki/giter8-templates
+eg: sbt new scala/hello-world.g8
