@@ -1,5 +1,6 @@
 ### 依赖管理
-	可管理依赖与不可管理依赖
+可管理依赖与不可管理依赖
+
 	libraryDependencies += groupID % artifactID % version [% configuration] // configuration: 比如 test
 	libraryDependencies += groupID % artifactID % version+ [% configuration]
 	version: 可以是 latest.integration, latest.milestone
