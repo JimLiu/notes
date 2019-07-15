@@ -11,6 +11,6 @@
 #### 可以一次运行多个命令
 > \> clean compile 
 #### SBT 常用命令
-1. clean
+1. clean   删除 target 
 2. compile
-3. 
+3. ~ 
