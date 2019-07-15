@@ -34,7 +34,12 @@
 
 然后将下面两行加在 build.sbt 文件开头：
 
-	imp	
+	import AssemblyKeys._
+	
+	assemlySettings
+
+运行：
+	$ sbt assembly	
 
 
 
