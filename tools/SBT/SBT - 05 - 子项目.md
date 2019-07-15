@@ -26,4 +26,4 @@ object HelloBuild extends Build {
                          base = file("Bar"))
 }
 ```
-hhvi
+目录结构: ![sub_proj](./imgs/sub_proj.png)
