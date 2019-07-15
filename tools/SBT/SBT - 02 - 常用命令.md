@@ -10,4 +10,7 @@
 > \> package
 #### 可以一次运行多个命令
 > \> clean compile 
-#### 
+#### SBT 常用命令
+1. clean
+2. compile
+3. 
