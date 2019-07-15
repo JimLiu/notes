@@ -10,3 +10,13 @@
 > \> package
 #### 可以一次运行多个命令：
 > clean compile 
+
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
