@@ -2,6 +2,7 @@
 #### 仓库
 添加仓库：
 
+	// https://www.cnblogs.com/codingexperience/p/5372617.html
 	resolvers += "Java.net Maven2 Repository" at "http://download.java.net/maven/2/"
 用 Seq 添加多个 resolvers:
 	
