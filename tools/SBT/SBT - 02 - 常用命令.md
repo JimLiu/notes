@@ -18,4 +18,5 @@
 5. doc 为使用 scaladoc 的 Scala 源码生成 API 文档
 6. help <command>
 7. inspect <setting>
-8. package 生成 jar 文件， 包含 src/main/scala, src/main/java 和 src/main/resources
+8. package 生成 jar 文件， 包含 src/main/scala, src/main/java 和 src/main/resources 下的资源文件
+9. package-doc 创建一个包含 scala 源码生成的 API 文档 和 java 
