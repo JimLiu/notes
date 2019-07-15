@@ -3,3 +3,9 @@
 1. sbt compile
 2. sbt run
 3. sbt package
+#### 交互模式
+$ sbt
+> compile
+> run
+> package
+可以一次运行多个命令：> clean compile 
