@@ -11,7 +11,7 @@
 #### 可以一次运行多个命令：
 > clean compile 
 
-```flow
+```
 st=>start: 开始
 op=>operation: My Operation
 cond=>condition: Yes or No?
