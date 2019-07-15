@@ -14,7 +14,6 @@ scalaVersion := "2.11.12"' > build.sbt
 #### 目录结构 
 ├── build.sbt
 ├── lib
-├── mkdirs4sbt.sh
 ├── project
 ├── src
 │   ├── main
