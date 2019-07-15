@@ -8,6 +8,13 @@
 因为 build.sbt 的配置行必须用空行隔开，在项目中添加多个依赖：
 
 	libraryDependencies ++= Seq(
-		"net.sourceforge.htmlcleaner" % "htmlcleaner" %"2.4",
-
+		"net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.4",
+		"xxx" % "yyy" % "zzz",
+		......
 	)
+也可以用多行分开:
+
+	libraryDependencies += "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.4"
+	libraryDependencies += "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.4"
+	
+
