@@ -13,4 +13,5 @@
 #### SBT 常用命令
 1. clean 删除 target 目录下面所有的文件
 2. compile 编译 src/main/scala, src/main/java 和项目根目录下面的源文件
-3. ~ compile 
+3. ~ compile 运行 sbt 交互模式时自动更新编译源码
+4. console
