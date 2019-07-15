@@ -1,4 +1,5 @@
 ### 其它
+#### 仓库
 添加仓库：
 
 	resolvers += "Java.net Maven2 Repository" at "http://download.java.net/maven/2/"
@@ -14,3 +15,7 @@
 	resolvers += "Java.net Maven2 Repository" at "http://download.java.net/maven/2/"
 
 	resolvers += "Java.net Maven2 Repository" at "http://repo.typesafe.com/typesafe/releases/"
+
+#### 日志级别
+
+在 build.sbt 中设置 SBT 
