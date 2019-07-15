@@ -11,7 +11,7 @@ version := "1.0"
 
 scalaVersion := "2.11.12"' > build.sbt
 ```
-###### 目录结构 
+#### 目录结构 
 ├── build.sbt
 ├── lib
 ├── mkdirs4sbt.sh
@@ -27,6 +27,6 @@ scalaVersion := "2.11.12"' > build.sbt
 │       └── scala
 └── target
 
-#### 基于 Giter8
+#### 基于 Giter8 生成项目结构
 GitHub: https://github.com/n8han/giter8/wiki/giter8-templates
 eg: sbt new scala/hello-world.g8
