@@ -23,4 +23,7 @@
 10. publish 发布到远程仓库
 11. pulish-local 将项目发布到本地的 Ivy 仓库
 12. reload 重新加载构建定义文件（build.sbt, project/*.scala, project/*.sbt）
-13. run 
+13. run 运行项目，如果项目中有多个 main, 需要按照提示选择执行
+14. test 运行单元测试
+15. update 更新外部依赖
+16. 
