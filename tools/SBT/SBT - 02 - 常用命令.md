@@ -11,6 +11,6 @@
 #### 可以一次运行多个命令
 > \> clean compile 
 #### SBT 常用命令
-1. clean   删除 target 
-2. compile
-3. ~ 
+1. clean 删除 target 目录下面所有的文件
+2. compile 编译 src/main/scala, src/main/java 和项目根目录下面的源文件
+3. ~ compile 
