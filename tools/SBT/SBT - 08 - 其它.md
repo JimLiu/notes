@@ -30,7 +30,11 @@
 	
 	resolvers += Resolver.url("artifactory", url("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases"))(Resolver.ivyStylePatterns)
 	
-	addSbtPlugin("com.eed3si9n")	
+	addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.8.4")
+
+然后将下面两行加在 build.sbt 文件开头：
+
+	imp	
 
 
 
