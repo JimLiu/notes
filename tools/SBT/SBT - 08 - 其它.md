@@ -25,7 +25,7 @@
 #### 部署 jar
 	
 ##### 使用 sbt-assembly
-
+github: https://github.com/sbt/sbt-assembly
 在 project 目录下面的 plugins.sbt 中添加下面两行代码:
 	
 	resolvers += Resolver.url("artifactory", url("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases"))(Resolver.ivyStylePatterns)
