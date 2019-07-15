@@ -15,6 +15,8 @@
 也可以用多行分开:
 
 	libraryDependencies += "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.4"
+
 	libraryDependencies += "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.4"
-	
+
+	libraryDependencies += "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.4"
 
