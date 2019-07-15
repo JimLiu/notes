@@ -26,3 +26,4 @@ object HelloBuild extends Build {
                          base = file("Bar"))
 }
 ```
+子项目和主项目的文件目录结构一样。
