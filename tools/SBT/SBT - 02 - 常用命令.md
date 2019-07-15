@@ -7,5 +7,6 @@
 $ sbt
 > compile
 > run
-> package
-可以一次运行多个命令：> clean compile 
+\> package
+#### 可以一次运行多个命令：
+> clean compile 
