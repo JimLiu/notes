@@ -19,4 +19,6 @@
 6. help <command>
 7. inspect <setting>
 8. package 生成 jar 文件， 包含 src/main/scala, src/main/java 和 src/main/resources 下的资源文件
-9. package-doc 创建一个包含 scala 源码生成的 API 文档 和 java 
+9. package-doc 创建一个包含 scala 源码生成的 API 文档 和 jar 文件
+10. publish 发布到远程仓库
+11. pulish-local 将项目发布到本地的 Ivy 仓库
