@@ -14,4 +14,6 @@
 1. clean 删除 target 目录下面所有的文件
 2. compile 编译 src/main/scala, src/main/java 和项目根目录下面的源文件
 3. ~ compile 运行 sbt 交互模式时自动更新编译源码
-4. console
+4. console 编译项目中源码，并将它们加载到 classpath 中，并且启动REPL
+5. doc 为使用 scaladoc 的 Scala 源码生成 API 文档
+6. 
