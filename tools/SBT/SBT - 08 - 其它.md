@@ -28,4 +28,11 @@
 
 在 project 目录下面的 plugins.sbt 中添加下面两行代码:
 	
-	resolvers += Resolver.url("artifactory", url("http://scalasbt.artifactoryonline.com"))
+	resolvers += Resolver.url("artifactory", url("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases"))(Resolver.ivyStylePatterns)
+	
+	addSbtPlugin("com.eed3si9n")	
+
+
+
+
+
