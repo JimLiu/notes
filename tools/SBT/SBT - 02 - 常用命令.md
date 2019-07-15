@@ -22,3 +22,5 @@
 9. package-doc 创建一个包含 scala 源码生成的 API 文档 和 jar 文件
 10. publish 发布到远程仓库
 11. pulish-local 将项目发布到本地的 Ivy 仓库
+12. reload 重新加载构建定义文件（build.sbt, project/*.scala, project/*.sbt）
+13. run 
