@@ -24,3 +24,6 @@
 
 #### 部署 jar
 	
+##### 使用 sbt-assembly
+
+在 project 目录下面的 plugins.sbt 中添加
