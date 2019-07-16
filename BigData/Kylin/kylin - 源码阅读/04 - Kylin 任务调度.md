@@ -5,4 +5,6 @@
 	3. 码迷：http://www.mamicode.com/info-detail-1015297.html
 	4. http://itfish.net/article/47363.html 
 
-#### 
+#### 前置知识
+##### JAVA 并行编程
+
