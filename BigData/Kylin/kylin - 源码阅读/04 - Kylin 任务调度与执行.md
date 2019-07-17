@@ -33,4 +33,11 @@ display方法： 1. 调用 open 2. 调用五次 print 3. 调用 close()
 * 单例模式 --> DefaultScheduler
 懒汉式，饿汉式 ... 略
 #### 流程架构
-![shce](../imgs/schedule.png)
+***
+![schedule](../imgs/schedule.png)
+***
+
+
+
+
+
