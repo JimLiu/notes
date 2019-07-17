@@ -7,7 +7,9 @@
 
 #### 前置知识
 ##### JAVA 多线程编程
-	关键知识点: Thread, Runnable, Callable, ThreadLocal, Excutor, ExcutorService, ThreadPoolExc 
+	关键知识点: 
+	实现线程的三个抽象类，或接口： Thread, Runnable, Callable, 
+	ThreadLocal, Excutor, ExcutorService, ThreadPoolExecutor, ScheuleThreadPoolExecutor,  
 ##### 源代码
 	1.设计模式： 模板模式， 单例模式
 	  
