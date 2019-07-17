@@ -19,6 +19,9 @@
 示例程序：将字符串循环显示一次打印
 ![类图](../imgs/template_1.png)
 display方法： 1. 调用 open 2. 调用五次 print 3. 调用 close()
-![AbstractDisplay]()
+模板类：
+![AbstractDisplay](../imgs/template_2.png)
+具体类：
+
 * 单例模式
 
