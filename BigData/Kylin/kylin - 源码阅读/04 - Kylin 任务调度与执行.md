@@ -7,7 +7,7 @@
 
 #### 前置知识
 ##### JAVA 多线程编程
-	关键知识点: Thread, Runnable, ThreadLocal ThreadF
+	关键知识点: Thread, Runnable, Callable, ThreadLocal, Excutor, ExcutorService, ThreadPoolExc 
 ##### 源代码
 	1.设计模式： 模板模式， 单例模式
 	  
