@@ -10,7 +10,7 @@
 	关键知识点: 
 	实现线程的三个抽象类，或接口： Thread, Runnable, Callable
 	线程本地变量：ThreadLocal
-	Excutor, ExcutorService, ThreadPoolExecutor, ScheuleThreadPoolExecutor,  
+	线程池：Excutor, ExcutorService, ThreadPoolExecutor, ScheuleThreadPoolExecutor,  
 ##### 源代码
 	1.设计模式： 模板模式， 单例模式
 	  
