@@ -13,7 +13,8 @@
 	线程池：ExcutorService, ThreadPoolExecutor, ScheuleThreadPoolExecutor
 	
 ##### 源代码
-	1.设计模式： 模板模式， 单例模式
+设计模式： 模板模式， 单例模式
+* 模板
 	  
 	2.  
 
