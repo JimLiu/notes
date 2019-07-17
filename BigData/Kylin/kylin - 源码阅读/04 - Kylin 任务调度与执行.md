@@ -18,6 +18,7 @@
 父类中定义处理流程的框架，子类中实现具体的处理的模式叫：Template Method
 示例程序：将字符串循环显示一次打印
 ![类图](../imgs/template_1.png)
+***
 display方法： 1. 调用 open 2. 调用五次 print 3. 调用 close()
 模板类：
 ![AbstractDisplay](../imgs/template_2.png)
