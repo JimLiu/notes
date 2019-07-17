@@ -21,6 +21,7 @@
 display方法： 1. 调用 open 2. 调用五次 print 3. 调用 close()
 模板类：
 ![AbstractDisplay](../imgs/template_2.png)
+***
 具体类：
 ![CharDisplay](../imgs/template_3.png)
 ***
