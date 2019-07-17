@@ -29,5 +29,5 @@ display方法： 1. 调用 open 2. 调用五次 print 3. 调用 close()
 ![CharDisplay](../imgs/template_3.png)
 ***
 ![StringDisplay](../imgs/template_4.png)
-* 单例模式 --
+* 单例模式 --> DefaultScheduler
 懒汉式，饿汉式 ... 略
