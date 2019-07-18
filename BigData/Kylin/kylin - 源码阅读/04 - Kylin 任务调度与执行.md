@@ -12,8 +12,7 @@
 	线程本地变量：ThreadLocal
 	线程池：ExcutorService, ThreadPoolExecutor, ScheuleThreadPoolExecutor
 	
-##### 源代码
-设计模式： 模板模式， 单例模式
+#### 设计模式： 模板模式， 单例模式
 * 模板模式 --> AbstractExecutable
 父类中定义处理流程的框架，子类中实现具体的处理的模式叫：Template Method
 示例程序：将字符串循环显示一次打印
