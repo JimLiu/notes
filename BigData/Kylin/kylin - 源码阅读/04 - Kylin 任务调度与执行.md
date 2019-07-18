@@ -36,8 +36,9 @@ display方法： 1. 调用 open 2. 调用五次 print 3. 调用 close()
 ![schedule](../imgs/schedule.png)
 ***
 #### 类继承关系图
-![Excutable](../imgs/schedule.png)
+***
+![Excutable](../imgs/Executable.png)
 
-
+***
 
 
