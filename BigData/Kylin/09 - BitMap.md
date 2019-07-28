@@ -5,3 +5,4 @@
 3. https://hexiaoqiao.github.io/blog/2016/11/27/exact-count-and-global-dictionary-of-apache-kylin/
 ### 笔记
 4. github roaringbitmap: https://github.com/RoaringBitmap/RoaringBitmap
+5. Roaring Bitmap更好的位图压缩算法 ：https://mp.weixin.qq.com/s/-9LxNTDtXV7Js1l9kq6IYQ
