@@ -3,3 +3,4 @@
 * explain shell: https://explainshell.com/
 * bash 中的花括号：https://www.techug.com/post/all-about-curly-braces-bash.html
 * buffer and cache: http://codebay.cn/post/9687.html?utm_source=weibo&utm_medium=referral
+* linux 文件系统详解：https://linux.cn/article-9798-1.html?f=http://blogread.cn/
