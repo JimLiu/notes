@@ -5,3 +5,4 @@
 * 如何解决Redis中的key过期问题：https://mp.weixin.qq.com/s/JFfKLgFBlf0PyFgG5zF4rg
 * Redis 分布式锁的正确实现方式: https://mp.weixin.qq.com/s/sSZDaxeEphtKd_JjzPgjog
 * Redis 面试总结：https://www.itcodemonkey.com/article/7572.html
+* Redis 高级特性案例介绍：https://www.itcodemonkey.com/article/6243.html
