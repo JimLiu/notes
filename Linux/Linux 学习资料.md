@@ -1,4 +1,4 @@
 # Linux 学习资料：
 * Linux 上安装 redis: http://www.codeceo.com/article/centos-7-redis-server.html
 * explain shell: https://explainshell.com/
-* bash 中 
+* bash 中的花括号：https://www.techug.com/post/all-about-curly-braces-bash.html
