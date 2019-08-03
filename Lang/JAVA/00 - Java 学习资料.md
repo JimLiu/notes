@@ -13,3 +13,4 @@
 * Java中4大基本加密算法解析：http://www.codeceo.com/article/java-4-encryption.html
 * 手写一个jedis pool:https://toutiao.io/posts/v9zeiv
 * java 编程思想：https://github.com/LingCoder/OnJava8
+* 深入理解Java对象的创建过程：类的初始化与实例化： https://www.itcodemonkey.com/article/4520.html
