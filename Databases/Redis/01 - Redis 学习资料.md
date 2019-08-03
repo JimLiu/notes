@@ -4,3 +4,4 @@
 * redis bitmap 简单快速实时计算指标：https://mp.weixin.qq.com/s/BZ0c4ZAAy5b8-q2ZgWZ7YQ
 * 如何解决Redis中的key过期问题：https://mp.weixin.qq.com/s/JFfKLgFBlf0PyFgG5zF4rg
 * Redis 分布式锁的正确实现方式: https://mp.weixin.qq.com/s/sSZDaxeEphtKd_JjzPgjog
+* Redis 面试总结：https://www.itcodemonkey.com/article/7572.html
