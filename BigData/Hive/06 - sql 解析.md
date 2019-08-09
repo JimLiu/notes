@@ -6,3 +6,15 @@
     * Hive sql 编译过程详解：http://www.open-open.com/lib/view/open1400644430159.html
     * 格式化工具：https://www.antlr3.org/works/
 
+### 关键 sql
+```Scala
+def getAst(sql: String)={
+        val conf = new HiveConf()
+        conf.setBoolean("hive.support.sql11.reserved.keywords",false)
+        conf.set("_hive.hdfs.session.path","/")
+        conf.set("_hive.local.session.path","/")
+        val ctx = new Context(conf)
+        val pd = new ParseDriver()
+        pd.parse(sql, ctx)
+    }
+```
