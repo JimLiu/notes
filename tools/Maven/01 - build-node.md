@@ -6,6 +6,13 @@
 
     <properties>
         <scala.version>2.11.12</scala.version>
+        <scala.big.version>2.11</scala.big.version>
+        <scala.binary.version>2.11</scala.binary.version>
+        <scala.test.verion>3.0.5</scala.test.verion>
+        <akka.version>2.5.19</akka.version>
+        <akka.http.version>10.1.8</akka.http.version>
+        <logback.version>1.2.3</logback.version>
+        <hadoop.version>2.7.3</hadoop.version>
     </properties>
 
     <repositories>
