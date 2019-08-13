@@ -12,3 +12,16 @@ ROW FORMAT SERDE
 WITH SERDEPROPERTIES ( 'field.delim' = '\1' , 'collected.delim' = '\2', 'mapkey.delim' = '\3', 'line.delim' = '\n')
    STORED AS rcfile;
 ```
+### eg
+```sql
+create table if not exists test_one_model_two_cube(
+    xname string,
+    xage string,
+    xgender string,
+    xcity string,
+    xno int
+)
+```
+
+### 数据样例
+
