@@ -21,6 +21,12 @@ create table if not exists test_one_model_two_cube(
     xcity string,
     xno int
 )
+row format delimited
+fields terminated by ','
+collection items terminated by '\002'
+map keys terminated by '\003'
+lines terminated by '\n'
+stored as textfile;
 ```
 
 ### 数据样例
