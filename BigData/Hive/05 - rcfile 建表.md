@@ -1,4 +1,4 @@
-hive create table
+### hive create table
 ```sql
 CREATE EXTERNAL TABLE `mid.dwd_yike_action`(
     xxx string
@@ -24,4 +24,9 @@ create table if not exists test_one_model_two_cube(
 ```
 
 ### 数据样例
-
+xname, xage, xgender, xcity, xno
+a,1,0,c1,1
+b,1,0,c1,1
+c,2,1,c1,2
+d,2,1,c2,2
+e,3,1,c2,3
