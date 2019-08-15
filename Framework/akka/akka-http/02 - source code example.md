@@ -247,7 +247,30 @@ case class SqlResult(fields: List[String], results: List[List[String]])
 
 ### application.conf
 ```config
+main.service {
+  name = "my-service"
+  port = 8920
+  host = localhost
+  routes = ["com.windTa1ker.services.routes.IndexRoute",
+  "com.windTa1ker.services.routes.CubeRoute",
+  "com.windTa1ker.services.routes.DataModelRoute"]
+  base.route = "route-base"
+}
 
+# config akka
+akka{
+  loggers = ["akka.event.slf4j.Slf4jLogger"]
+  loglevel = "DEBUG"
+  logging-filter = "akka.event.slf4j.Slf4jLoggingFilter"
+}
+
+# route config
+route.ask.timeout = 5
+
+# actor config
+actor.thread.pool = 20
+
+# envs config
 ```
 
 
