@@ -127,8 +127,40 @@ class IndexRoute(val config: Config, val system: ActorSystem) extends BaseRoute 
 ```
 ### Constants 
 ```scala
+package com.windTa1ker.services
+
+
+object Constants {
+
+    /**
+      * main config
+      */
+    val SERVICE_NAME = "main.service.name"
+    val SERVICE_HOST = "main.service.host"
+    val SERVICE_PORT = "main.service.port"
+    val SERVICE_ROUTES = "main.service.routes"
+    val BASE_ROUTE = "main.service.base.route"
+
+    /**
+      * route config
+      */
+    val ASK_TMOUT = "route.ask.timeout"
+
+    /**
+      * actor config
+      */
+    val THREAD_POOL = "actor.thread.pool"
+
+    /**
+      * envs config
+      */
+}
+```
+### Main
+```scala
 
 ```
+
 
 
  
