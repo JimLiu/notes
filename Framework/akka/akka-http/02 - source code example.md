@@ -115,12 +115,12 @@ class IndexRoute(val config: Config, val system: ActorSystem) extends BaseRoute 
             },
             pathPrefix("get") {
                         get {
-                            parameters('cubeName).as(GetCube){ gc =>
+                            parameters('cubeName).as(Index3){ gc =>
                                 val info = (actor ? gc).mapTo[ResultMessage[SqlResult]]
                                 complete(info)
                             }
                         }
-                    },
+            }
         )
     }
 }
