@@ -52,6 +52,29 @@ trait MyJsonProtocol extends SprayJsonSupport{
 ### models
 ### routes
 ```scala
+import akka.actor.{ActorRef, ActorSystem}
+import akka.event.LoggingAdapter
+import akka.http.scaladsl.server.Route
+import akka.util.Timeout
+import com.windTa1ker.services.Constants
+import com.typesafe.config.Config
+import com.windTa1ker.services.marshallers.MyJsonProtocol
+import spray.json.DefaultJsonProtocol
+
+import scala.concurrent.duration._
+
+trait BaseRoute extends MyJsonProtocol{
+    import DefaultJsonProtocol._
+    val config: Config
+    val system: ActorSystem
+    val log: LoggingAdapter
+    val actor: ActorRef
+    val userRoutes: Route
+    val TMOUT: Int = config.getInt(Constants.ASK_TMOUT)
+    implicit lazy val timeout: Timeout = Timeout(TMOUT.seconds)
+    lazy val baseRoute: String = config.getString(Constants.BASE_ROUTE)
+}
+
 
 ```
 
