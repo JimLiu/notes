@@ -75,7 +75,47 @@ trait BaseRoute extends MyJsonProtocol{
     lazy val baseRoute: String = config.getString(Constants.BASE_ROUTE)
 }
 
+import akka.actor.{ActorRef, ActorSystem}
+import akka.event.{Logging, LoggingAdapter}
+import akka.util.Timeout
+import com.windTa1ker.services.actors.IndexActor
+import com.typesafe.config.Config
+import akka.pattern.ask
 
+import scala.concurrent.duration._
+import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.server.Route
+import IndexActor._
+import com.windTa1ker.services.{ResultMessage, SqlResult}
+
+class IndexRoute(val config: Config, val system: ActorSystem) extends BaseRoute {
+    override val log: LoggingAdapter = Logging(system, classOf[IndexRoute])
+    override val actor: ActorRef = system.actorOf(IndexActor.props(config), "indexActor")
+    override implicit lazy val timeout = Timeout(20.seconds)
+    lazy val userRoutes: Route = pathPrefix(baseRoute) {
+        concat(
+            pathEnd {
+                get {
+                    complete("hello world")
+                }
+            },
+            pathPrefix("index") {
+                get {
+                    val hello = (actor ? Index).mapTo[ResultMessage[SqlResult]]
+                    complete(hello)
+                }
+            },
+            path(Segment) { name =>
+                        concat(
+                            get {
+                                val info = (actor ? GetDataModel(name)).mapTo[ResultMessage[SqlResult]]
+                                complete(info)
+                            }
+                        )
+                    }
+        )
+    }
+}
 ```
 
  
