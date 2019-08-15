@@ -158,8 +158,70 @@ object Constants {
 ```
 ### Main
 ```scala
+import java.io.File
+import java.util
 
+import com.typesafe.config.{Config, ConfigFactory}
+import Constants._
+import akka.actor.ActorSystem
+import akka.http.scaladsl.Http
+import akka.stream.ActorMaterializer
+import com.windTa1ker.services.routes.BaseRoute
+import scala.collection.JavaConversions._
+import scala.concurrent.{Await, ExecutionContext, Future}
+import scala.concurrent.duration.Duration
+import scala.util.{Failure, Success, Try}
+import akka.http.scaladsl.server.Directives._
+
+object MainService {
+
+    def main(args: Array[String]): Unit = {
+        val config = if (args.length > 0 ) ConfigFactory.parseFile(new File(args(0))) else ConfigFactory.load()
+        startServer(config)
+    }
+
+    def startServer(config: Config): Unit = {
+        val serviceName = config.getString(SERVICE_NAME)
+        val serviceHost = config.getString(SERVICE_HOST)
+        val servicePort = config.getInt(SERVICE_PORT)
+        implicit val system: ActorSystem = ActorSystem(serviceName, config)
+        implicit val materializer: ActorMaterializer = ActorMaterializer()
+        implicit val executionContext: ExecutionContext = system.dispatcher
+        val routes = buildRoutes(config, system)
+        val serverBinding: Future[Http.ServerBinding] = Http().bindAndHandle(routes, serviceHost, servicePort)
+        serverBinding.onComplete {
+            case Success(bound) =>
+                println(s"Server online at http://${bound.localAddress.getHostString}:${bound.localAddress.getPort}/")
+            case Failure(e) =>
+                Console.err.println(s"Server could not start!")
+                e.printStackTrace()
+                system.terminate()
+        }
+        Await.result(system.whenTerminated, Duration.Inf)
+    }
+
+    def buildRoutes(config: Config, system: ActorSystem) = {
+        val routeLst = config.getStringList(SERVICE_ROUTES)
+        val routes= routeLst.flatMap(clazzName => {
+            Try{
+                println("classname: " + clazzName)
+                val clazz = Class.forName(clazzName, true, Thread.currentThread().getContextClassLoader)
+                val constructor =  clazz.getConstructor(classOf[Config], classOf[ActorSystem])
+                constructor.newInstance(config, system).asInstanceOf[BaseRoute]
+            } match {
+                case Success(ok) => Some(ok)
+                case Failure(err) =>
+                    err.printStackTrace()
+                    err.getMessage
+                    None
+            }
+        })
+        // println(routes)
+        routes.map(_.userRoutes).reduceLeft(_ ~ _)
+    }
+}
 ```
+###
 
 
 
