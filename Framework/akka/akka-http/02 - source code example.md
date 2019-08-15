@@ -125,5 +125,10 @@ class IndexRoute(val config: Config, val system: ActorSystem) extends BaseRoute 
     }
 }
 ```
+### Constants 
+```scala
+
+```
+
 
  
