@@ -27,6 +27,9 @@ collection items terminated by '\002'
 map keys terminated by '\003'
 lines terminated by '\n'
 stored as textfile;
+
+load data local inpath '/home/myhome/jingqi/temp/test_cube/table.data'
+overwrite into table test_one_model_two_cube;
 ```
 
 ### 数据样例
