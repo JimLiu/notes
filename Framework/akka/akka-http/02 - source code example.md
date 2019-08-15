@@ -39,7 +39,16 @@ object IndexActor {
 ```
 ### marshallers
 ```scala
+import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
+import com.windTa1ker.services.{ResultMessage, SqlResult}
 
+trait MyJsonProtocol extends SprayJsonSupport{
+    import spray.json._
+    import DefaultJsonProtocol._
+    implicit val sqlResultFmt: RootJsonFormat[SqlResult] = jsonFormat2(SqlResult)
+    implicit def resultMessageFmt[A :JsonFormat]: RootJsonFormat[ResultMessage[A]] = jsonFormat3(ResultMessage.apply[A])
+}
 ```
-
+### models
+### rou
  
