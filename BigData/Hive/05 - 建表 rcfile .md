@@ -13,7 +13,7 @@ WITH SERDEPROPERTIES ( 'field.delim' = '\1' , 'collected.delim' = '\2', 'mapkey.
    STORED AS rcfile;
 ```
 ### eg
-```sql
+```SQL
 create table if not exists test_one_model_two_cube(
     xname string,
     xage string,
