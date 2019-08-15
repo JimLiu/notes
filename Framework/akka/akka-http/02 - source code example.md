@@ -508,7 +508,22 @@ actor.thread.pool = 20
 
 ### start.sh
 ```bash
+#!/usr/bin/env bash
 
+base_dir=$(cd $(dirname $0);pwd)
+log_dir="$base_dir/../logs"
+function main(){
+    local _conf=$1
+    nohup java -classpath "$base_dir/../libs/*" com.windTa1ker.services.myService $_conf > "$log_dir/myService.log" 2>&1 &
+}
+
+file_conf=$1
+
+if [ ! -e "$log_dir" ]; then
+    mkdir "$log_dir"
+fi
+
+main ${file_conf}
 ```
 
 
