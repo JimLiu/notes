@@ -108,11 +108,19 @@ class IndexRoute(val config: Config, val system: ActorSystem) extends BaseRoute 
             path(Segment) { name =>
                         concat(
                             get {
-                                val info = (actor ? GetDataModel(name)).mapTo[ResultMessage[SqlResult]]
+                                val info = (actor ? Index2(name)).mapTo[ResultMessage[SqlResult]]
                                 complete(info)
                             }
                         )
-                    }
+            },
+            pathPrefix("get") {
+                        get {
+                            parameters('cubeName).as(GetCube){ gc =>
+                                val info = (actor ? gc).mapTo[ResultMessage[SqlResult]]
+                                complete(info)
+                            }
+                        }
+                    },
         )
     }
 }
