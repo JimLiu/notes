@@ -15,6 +15,27 @@ trait BaseActor extends Actor with ActorLogging with MyJsonProtocol{
     implicit val ec = ExecutionContext.fromExecutor(Executors.newFixedThreadPool(config.getInt(THREAD_POOL)))
 }
 
+import akka.actor.Props
+import com.windTa1ker.services.{ResultMessage, SqlResult}
+import com.typesafe.config.Config
+import spray.json._
 
+class IndexActor(val config: Config) extends BaseActor {
+    import IndexActor._
+    override def receive: Receive = {
+        case Index =>
+            log.info("Index: " + Index)
+            val sqlResult = SqlResult(List("hello", "world"), List(List("hello", "world")))
+            val resultMessage = ResultMessage(0, "hello world", sqlResult)
+            sender() ! resultMessage
+    }
+}
+
+object IndexActor {
+    def props(config: Config) = Props(new IndexActor(config))
+    // protocols
+    case object Index
+}
 ```
+### 
  
