@@ -221,7 +221,36 @@ object MainService {
     }
 }
 ```
-###
+### ResultMessage
+```scala
+case class ResultMessage[T](code: Int, msg: String, data: T) {
+
+}
+
+object ResultMessage {
+
+    def success[T](data: T) = ResultMessage(0, "success", data)
+
+    def fail[T](data: T) = ResultMessage(-1, "failed", data)
+
+    def other[T](data: T) = ResultMessage(1, "other", data)
+
+    def defaultSuccess(msg: String= "success"): ResultMessage[SqlResult] = success(SqlResult(List("info"), List(List(msg))))
+
+    def defaultFail(msg: String="failed"): ResultMessage[SqlResult] = fail(SqlResult(List("info"), List(List(msg))))
+
+    def defaultOther(msg: String = "other"): ResultMessage[SqlResult] = other(SqlResult(List("info"), List(List(msg))))
+}
+
+case class SqlResult(fields: List[String], results: List[List[String]])
+```
+
+### application.conf
+```config
+
+```
+
+
 
 
 
