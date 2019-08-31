@@ -1,5 +1,6 @@
 ## 双系统安装
 ### 参考资料
+联想 thinkpad s2: bios 模式：http://www.udaxia.com/upqd/10119.html
 制作启动盘：https://www.jianshu.com/p/38e6be8efecf
     关闭快速启动模式
 安装双系统：https://blog.csdn.net/flyer1011/article/details/78185509
