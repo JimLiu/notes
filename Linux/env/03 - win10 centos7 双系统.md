@@ -1,6 +1,7 @@
 ## 双系统安装
 ### 参考资料
 制作启动盘：https://www.jianshu.com/p/38e6be8efecf
+    关闭快速启动模式
 安装双系统：https://blog.csdn.net/flyer1011/article/details/78185509
 安装双系统：https://blog.csdn.net/Gatherfly/article/details/51864247
 安装双系统：https://blog.csdn.net/luanpeng825485697/article/details/80274399
