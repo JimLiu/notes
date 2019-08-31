@@ -12,3 +12,10 @@ centos 启动引导 win10: https://blog.csdn.net/q260864798/article/details/5350
 https://www.cnblogs.com/NineKit/p/9649745.html
 https://www.cnblogs.com/NineKit/p/9649746.html
 https://www.cnblogs.com/NineKit/p/9649748.html
+
+### 挂载硬盘
+#### https://blog.csdn.net/dgyingling/article/details/66477272
+#### http://blog.sina.com.cn/s/blog_437ff56b0101e5kj.html
+
+挂载硬盘时，需要参考第二个连接： vim /etc/fstab
+    /dev/sda2     /mnt/win    ntfs-3g  ro 0 0
