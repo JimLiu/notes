@@ -8,7 +8,6 @@
    * kindle: https://bookfere.com/ebook
    * https://manybooks.net/
 2. 电影网址
-   * 迅影网：http://www.xunyingwang.com/
    * 宅腐资源网：http://www.zhaifu.cc/
    * 记录片-艺术家: https://www.bilibili.com/video/av17836600/?from=search&seid=14375206664244401059
    * 电影资源：https://www.cupfox.com/
