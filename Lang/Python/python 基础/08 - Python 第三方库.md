@@ -6,6 +6,9 @@
 5. 交互 pygame
 6. 网络 Selenium etc ...
 
+### seaborn
+傻瓜式的绘图工具
+
 ### 机器学习
 
 ### 网络 Selenium
