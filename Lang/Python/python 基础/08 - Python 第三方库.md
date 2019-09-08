@@ -2,4 +2,10 @@
 1. 数值计算 - numpy
 2. 数据处理分析 - pandas
 3. 可视化 - matplotlib / seaborn
-4. 机器学习 Sklear
+4. 机器学习 Sklearn / Keras
+5. 交互 pygame
+6. 网络 Selenium etc ...
+
+### 机器学习
+
+### 网络 Selenium
