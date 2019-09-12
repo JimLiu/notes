@@ -14,3 +14,4 @@
 * 手写一个jedis pool:https://toutiao.io/posts/v9zeiv
 * java 编程思想：https://github.com/LingCoder/OnJava8
 * 深入理解Java对象的创建过程：类的初始化与实例化： https://www.itcodemonkey.com/article/4520.html
+* java 注解全面解析：http://www.codeceo.com/article/java-annotation-learn.html
