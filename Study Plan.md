@@ -10,5 +10,6 @@
 3. 数学建模 http://www.icourses.cn/sCourse/course_6795.html
 4. 计算方法 http://www.icourses.cn/sCourse/course_6179.html
 5. 数学史 http://www.icourses.cn/sCourse/course_6067.html
-6. 
-  
+6. 数值分析 http://www.icourses.cn/sCourse/course_3732.html
+7. 数值分析 http://www.icourses.cn/sCourse/course_4200.html
+8. 抽象代数 http://www.icourses.cn/sCourse/course_5968.html
