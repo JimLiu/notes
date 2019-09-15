@@ -15,4 +15,5 @@
 8. 抽象代数 http://www.icourses.cn/sCourse/course_5968.html
 9. 运筹学 http://www.icourses.cn/sCourse/course_2781.html
 #### 物理学
-1. 
+1. 量子力学 http://www.icourses.cn/sCourse/course_3570.html
+2. 数学物理方法 
