@@ -13,3 +13,5 @@
 6. 数值分析 http://www.icourses.cn/sCourse/course_3732.html
 7. 数值分析 http://www.icourses.cn/sCourse/course_4200.html
 8. 抽象代数 http://www.icourses.cn/sCourse/course_5968.html
+9. 运筹学 http://www.icourses.cn/sCourse/course_2781.html
+10. 
