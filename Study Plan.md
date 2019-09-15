@@ -67,7 +67,12 @@
 5. 并行计算 http://www.icourses.cn/sCourse/course_3058.html
 6. 计算机体系结构 http://www.icourses.cn/sCourse/course_3266.html
 7. 计算机原理 http://www.icourses.cn/sCourse/course_3267.html
-8. 
+8. 计算机网络 http://www.icourses.cn/sCourse/course_3269.html
+9. 编译技术 http://www.icourses.cn/sCourse/course_3288.html
+10. 计算机通信与网络 http://www.icourses.cn/sCourse/course_3388.html
+11. 计算机网络 http://www.icourses.cn/sCourse/course_3408.html
+12. 计算机网络 http://www.icourses.cn/sCourse/course_4099.html
+13. 编译原理 
 
 
 
