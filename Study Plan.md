@@ -57,7 +57,8 @@
 19. 信号处理与系统 http://www.icourses.cn/sCourse/course_6615.html
 20. 电子电路基础 http://www.icourses.cn/sCourse/course_6895.html
 21. 电路原理 http://www.icourses.cn/sCourse/course_2980.html
-22. 电工学 
+22. 电工学 http://www.icourses.cn/sCourse/course_6306.html
+23. 信号分析与处理 http://www.icourses.cn/sCourse/course_6799.html
 
 
 
