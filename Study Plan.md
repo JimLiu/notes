@@ -42,7 +42,28 @@
 4. 自动控制理论 http://www.icourses.cn/sCourse/course_6216.html
 5. 数字逻辑电路 http://www.icourses.cn/sCourse/course_2474.html
 6. 数字图像处理 http://www.icourses.cn/sCourse/course_2523.html
-7. 
+7. 光纤通信技术 http://www.icourses.cn/sCourse/course_2559.html
+8. 信号与系统 http://www.icourses.cn/sCourse/course_2596.html
+9. 信息论与编码基础 http://www.icourses.cn/sCourse/course_3257.html
+10. 随机信号分析与处理 http://www.icourses.cn/sCourse/course_3265.html
+11. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
