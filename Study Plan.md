@@ -29,7 +29,11 @@
 11. 力学 http://www.icourses.cn/sCourse/course_3572.html
 12. 统计热力学 http://www.icourses.cn/sCourse/course_3412.html
 13. 热力学统计物理 http://www.icourses.cn/sCourse/course_3118.html
-
+### 工学
+#### 力学
+1. 理论力学 http://www.icourses.cn/sCourse/course_2919.html
+2. 液体力学 http://www.icourses.cn/sCourse/course_2992.html
+### 
 
 
 
