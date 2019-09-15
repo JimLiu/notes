@@ -72,7 +72,13 @@
 10. 计算机通信与网络 http://www.icourses.cn/sCourse/course_3388.html
 11. 计算机网络 http://www.icourses.cn/sCourse/course_3408.html
 12. 计算机网络 http://www.icourses.cn/sCourse/course_4099.html
-13. 编译原理 
+13. 编译原理 http://www.icourses.cn/sCourse/course_3742.html
+14. 现代交换原理 http://www.icourses.cn/sCourse/course_3517.html
+15. 集合论与图论 http://www.icourses.cn/sCourse/course_5979.html
+16. 计算机组成原理 http://www.icourses.cn/sCourse/course_6011.html
+17. 离散数学 http://www.icourses.cn/sCourse/course_6447.html
+18. 离散数学 http://www.icourses.cn/sCourse/course_6478.html
+19. 
 
 
 
