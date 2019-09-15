@@ -35,7 +35,9 @@
 2. 液体力学 http://www.icourses.cn/sCourse/course_2992.html
 #### 仪器类
 1. 单片机原理 http://www.icourses.cn/sCourse/course_5981.html
-
+#### 电子信息类
+1. 电路 http://www.icourses.cn/sCourse/course_4123.html
+2. 自动控制理论 http://www.icourses.cn/sCourse/course_2989.html
 
 
 
