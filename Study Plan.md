@@ -9,3 +9,7 @@
 #### 数学
 1. 概率论与数理统计
   http://www.icourses.cn/sCourse/course_6556.html
+2. 复变函数
+  http://www.icourses.cn/sCourse/course_7104.html
+3. 数学建模
+  
