@@ -26,7 +26,8 @@
 9. 数学物理方法 http://www.icourses.cn/sCourse/course_3569.html
 10. 光学 http://www.icourses.cn/sCourse/course_3571.html
 11. 力学 http://www.icourses.cn/sCourse/course_3572.html
-12. 
+12. 统计热力学 http://www.icourses.cn/sCourse/course_3412.html
+13. 热力学统计物理 http://www.icourses.cn/sCourse/course_3118.html
 
 
 
