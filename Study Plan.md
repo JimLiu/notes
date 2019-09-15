@@ -21,4 +21,22 @@
 4. 固体物理学 http://www.icourses.cn/sCourse/course_6703.html
 5. 电磁学 http://www.icourses.cn/sCourse/course_6255.html
 6. 计算物理基础 http://www.icourses.cn/sCourse/course_6206.html
-7. 光学 
+7. 光学 http://www.icourses.cn/sCourse/course_6043.html
+8. 数学物理方法 http://www.icourses.cn/sCourse/course_3450.html
+9. 数学物理方法 http://www.icourses.cn/sCourse/course_3569.html
+10. 光学 http://www.icourses.cn/sCourse/course_3571.html
+11. 力学 http://www.icourses.cn/sCourse/course_3572.html
+12. 
+
+
+
+
+
+
+
+
+
+
+
+
+
