@@ -46,7 +46,10 @@
 8. 信号与系统 http://www.icourses.cn/sCourse/course_2596.html
 9. 信息论与编码基础 http://www.icourses.cn/sCourse/course_3257.html
 10. 随机信号分析与处理 http://www.icourses.cn/sCourse/course_3265.html
-11. 
+11. 通信原理 http://www.icourses.cn/sCourse/course_3518.html
+12. 数字电路及系统设计 http://www.icourses.cn/sCourse/course_4232.html
+13. 模拟电子线路基础 http://www.icourses.cn/sCourse/course_4234.html 
+14. 信息论与编码理论 www.icourses.cn/sCourse/course_4235.html
 
 
 
