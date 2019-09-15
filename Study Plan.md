@@ -33,7 +33,8 @@
 #### 力学
 1. 理论力学 http://www.icourses.cn/sCourse/course_2919.html
 2. 液体力学 http://www.icourses.cn/sCourse/course_2992.html
-#### 
+#### 仪器类
+1. 单片机原理 http://www.icourses.cn/sCourse/course_5981.html
 
 
 
