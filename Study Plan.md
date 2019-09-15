@@ -38,6 +38,11 @@
 #### 电子信息类
 1. 电路 http://www.icourses.cn/sCourse/course_4123.html
 2. 自动控制理论 http://www.icourses.cn/sCourse/course_2989.html
+3. 自动控制原理 http://www.icourses.cn/sCourse/course_4392.html
+4. 自动控制理论 http://www.icourses.cn/sCourse/course_6216.html
+5. 数字逻辑电路 http://www.icourses.cn/sCourse/course_2474.html
+6. 数字图像处理 http://www.icourses.cn/sCourse/course_2523.html
+7. 
 
 
 
