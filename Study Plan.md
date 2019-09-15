@@ -52,7 +52,8 @@
 14. 信息论与编码理论 www.icourses.cn/sCourse/course_4235.html
 15. 现代交换原理 http://www.icourses.cn/sCourse/course_6175.html
 16. 密码学 http://www.icourses.cn/sCourse/course_6290.html
-17. 
+17. 数字信号处理 http://www.icourses.cn/sCourse/course_6291.html
+18. 
 
 
 
