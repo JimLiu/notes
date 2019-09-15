@@ -9,4 +9,6 @@
 2. 复变函数 http://www.icourses.cn/sCourse/course_7104.html
 3. 数学建模 http://www.icourses.cn/sCourse/course_6795.html
 4. 计算方法 http://www.icourses.cn/sCourse/course_6179.html
+5. 数学史 http://www.icourses.cn/sCourse/course_6067.html
+6. 
   
