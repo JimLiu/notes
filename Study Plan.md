@@ -63,7 +63,11 @@
 1. 编译原理 http://www.icourses.cn/sCourse/course_2907.html
 2. 计算机系统结构 http://www.icourses.cn/sCourse/course_2985.html
 3. 汇编语言程序设计 http://www.icourses.cn/sCourse/course_2986.html
-4. 
+4. 计算机网络技术及应用 http://www.icourses.cn/sCourse/course_3022.html
+5. 并行计算 http://www.icourses.cn/sCourse/course_3058.html
+6. 计算机体系结构 http://www.icourses.cn/sCourse/course_3266.html
+7. 计算机原理 http://www.icourses.cn/sCourse/course_3267.html
+8. 
 
 
 
