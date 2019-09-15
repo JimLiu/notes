@@ -50,7 +50,9 @@
 12. 数字电路及系统设计 http://www.icourses.cn/sCourse/course_4232.html
 13. 模拟电子线路基础 http://www.icourses.cn/sCourse/course_4234.html 
 14. 信息论与编码理论 www.icourses.cn/sCourse/course_4235.html
-
+15. 现代交换原理 http://www.icourses.cn/sCourse/course_6175.html
+16. 密码学 http://www.icourses.cn/sCourse/course_6290.html
+17. 
 
 
 
