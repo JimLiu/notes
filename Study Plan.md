@@ -60,6 +60,7 @@
 22. 电工学 http://www.icourses.cn/sCourse/course_6306.html
 23. 信号分析与处理 http://www.icourses.cn/sCourse/course_6799.html
 #### 计算机类
+0. 网易学习路线 https://study.163.com/curricula/cs.htm
 1. 编译原理 http://www.icourses.cn/sCourse/course_2907.html
 2. 计算机系统结构 http://www.icourses.cn/sCourse/course_2985.html
 3. 汇编语言程序设计 http://www.icourses.cn/sCourse/course_2986.html
