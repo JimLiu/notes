@@ -78,8 +78,12 @@
 16. 计算机组成原理 http://www.icourses.cn/sCourse/course_6011.html
 17. 离散数学 http://www.icourses.cn/sCourse/course_6447.html
 18. 离散数学 http://www.icourses.cn/sCourse/course_6478.html
-19. 
-
+19. 编译原理 http://www.icourses.cn/sCourse/course_6558.html
+20. 操作系统 http://www.icourses.cn/sCourse/course_6560.html
+21. 密码学 http://www.icourses.cn/sCourse/course_6648.html
+22. 人工智能 http://www.icourses.cn/sCourse/course_6696.html
+23. 操作系统 http://www.icourses.cn/sCourse/course_6801.html
+24. 软件工程 
 
 
 
