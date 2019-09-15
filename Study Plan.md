@@ -16,4 +16,9 @@
 9. 运筹学 http://www.icourses.cn/sCourse/course_2781.html
 #### 物理学
 1. 量子力学 http://www.icourses.cn/sCourse/course_3570.html
-2. 数学物理方法 
+2. 数学物理方法 http://www.icourses.cn/sCourse/course_6941.html
+3. 近代物理实验 http://www.icourses.cn/sCourse/course_6553.html
+4. 固体物理学 http://www.icourses.cn/sCourse/course_6703.html
+5. 电磁学 http://www.icourses.cn/sCourse/course_6255.html
+6. 计算物理基础 http://www.icourses.cn/sCourse/course_6206.html
+7. 光学 
