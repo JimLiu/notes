@@ -53,7 +53,11 @@
 15. 现代交换原理 http://www.icourses.cn/sCourse/course_6175.html
 16. 密码学 http://www.icourses.cn/sCourse/course_6290.html
 17. 数字信号处理 http://www.icourses.cn/sCourse/course_6291.html
-18. 
+18. 通信原理 http://www.icourses.cn/sCourse/course_6642.html
+19. 信号处理与系统 http://www.icourses.cn/sCourse/course_6615.html
+20. 电子电路基础 http://www.icourses.cn/sCourse/course_6895.html
+21. 电路原理 http://www.icourses.cn/sCourse/course_2980.html
+22. 电工学 
 
 
 
