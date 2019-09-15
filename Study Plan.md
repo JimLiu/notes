@@ -83,7 +83,7 @@
 21. 密码学 http://www.icourses.cn/sCourse/course_6648.html
 22. 人工智能 http://www.icourses.cn/sCourse/course_6696.html
 23. 操作系统 http://www.icourses.cn/sCourse/course_6801.html
-24. 软件工程 
+24. 软件工程 http://www.icourses.cn/sCourse/course_6804.html
 
 
 
