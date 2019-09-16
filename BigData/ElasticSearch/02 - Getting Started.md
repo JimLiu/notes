@@ -53,12 +53,23 @@
    
 ### 修改数据
     1. 更新文档
-    curl -X POST "localhost:9200/customer/_doc/1/_update?pretty&pretty" -H 'Content-Type: application/json' -d'
+    (1) curl -X POST "localhost:9200/customer/_doc/1/_update?pretty&pretty" -H 'Content-Type: application/json' -d'
+    {
+      "doc": { "name": "Jane Doe" }
+    }'
+    (2) curl -X POST "localhost:9200/customer/_doc/1/_update?pretty&pretty" -H 'Content-Type: application/json' -d'
 {
-  "doc": { "name": "Jane Doe" }
+  "doc": { "name": "Jane Doe", "age": 20 }
+}
+'
+    (3) curl -X POST "localhost:9200/customer/_doc/1/_update?pretty&pretty" -H 'Content-Type: application/json' -d'
+{
+  "script" : "ctx._source.age += 5"
 }
 '
 
+    2. 
+    
  
 
 
