@@ -8,4 +8,5 @@
     - NRT Near Realtime 
     - Cluster 
     - Node
+    - Index
     - 
