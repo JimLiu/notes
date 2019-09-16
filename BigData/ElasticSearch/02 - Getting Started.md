@@ -38,5 +38,7 @@
     (1) curl -X PUT "localhost:9200/customer?pretty&pretty"
     查看索引：curl -X GET "localhost:9200/_cat/indices?v&pretty"
 
+    4. 
+
 
       
