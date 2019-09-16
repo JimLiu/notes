@@ -77,9 +77,8 @@
     {"name": "Jane Doe" }'
     (2) curl -X POST "localhost:9200/customer/_doc/_bulk?pretty&pretty" -H 'Content-Type: application/json' -d'
     {"update":{"_id":"1"}}
-{"doc": { "name": "John Doe becomes Jane Doe" } }
-{"delete":{"_id":"2"}}
-'
+    {"doc": { "name": "John Doe becomes Jane Doe" } }
+    {"delete":{"_id":"2"}}'
 
 
     
