@@ -38,7 +38,12 @@
     (1) curl -X PUT "localhost:9200/customer?pretty&pretty"
     查看索引：curl -X GET "localhost:9200/_cat/indices?v&pretty"
 
-    4. 
+    4. 索引和查询 Document
+    curl -X PUT "localhost:9200/customer/_doc/1?pretty&pretty" -H 'Content-Type: application/json' -d'
+    {
+      "name": "John Doe"
+    }'
+ 
 
 
       
