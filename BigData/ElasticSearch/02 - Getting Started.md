@@ -21,5 +21,7 @@
        或者启动时指定集群以及节点名称：./elasticsearch -Ecluster.name=my_cluster_name -Enode.name=my_node_name
 
 ### 查看集群
+    通过 es 提供的 api:
+        (1) 
     1. 集群健康
       
