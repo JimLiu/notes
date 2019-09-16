@@ -25,6 +25,6 @@
     (1) 检查 集群，节点，index 健康情况，状态，以及 统计数据
     (2) 管理 集群，节点，索引，元数据
     (3) crud 操作，查询对应的index
-    (4) 执行 
+    (4) 执行 一些高级操作：paging, sorting, filtering, scripting, aggregations, and etc...
     1. 集群健康
       
