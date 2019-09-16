@@ -58,15 +58,14 @@
       "doc": { "name": "Jane Doe" }
     }'
     (2) curl -X POST "localhost:9200/customer/_doc/1/_update?pretty&pretty" -H 'Content-Type: application/json' -d'
-{
-  "doc": { "name": "Jane Doe", "age": 20 }
-}
-'
+    {
+      "doc": { "name": "Jane Doe", "age": 20 }
+    }'
     (3) curl -X POST "localhost:9200/customer/_doc/1/_update?pretty&pretty" -H 'Content-Type: application/json' -d'
-{
-  "script" : "ctx._source.age += 5"
-}
-'
+    {
+      "script" : "ctx._source.age += 5"
+    }
+    '
 
     2. 
     
