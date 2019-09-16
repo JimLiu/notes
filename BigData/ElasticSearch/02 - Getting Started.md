@@ -5,4 +5,5 @@
     - 降价提醒
     - 近实时分析
 ### Basic Concepts
-    - NRT Near
+    - NRT Near Realtime 
+    - 
