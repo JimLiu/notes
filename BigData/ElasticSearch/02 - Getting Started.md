@@ -66,7 +66,11 @@
       "script" : "ctx._source.age += 5"
     }'
 
-    2. 
+    2. 删除文档
+    curl -X DELETE "localhost:9200/customer/_doc/2?pretty&pretty"
+
+    3. 批处理
+    
     
  
 
