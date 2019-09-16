@@ -14,4 +14,5 @@
        相当于表名。6.0.0 已经标记成过时了，在 6.x 中还可以使用。8.x 版本彻底不能用。
     6. Document
     7. Shards & Replicas
-### 
+### Installation
+    1. 
