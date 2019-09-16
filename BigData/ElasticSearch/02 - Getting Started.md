@@ -5,8 +5,9 @@
     - 降价提醒
     - 近实时分析
 ### Basic Concepts
-    - NRT Near Realtime 
-    - Cluster 
-    - Node
-    - Index
+    1. NRT Near Realtime 
+    2. Cluster 
+    3. Node
+    4. Index
+       Index 是属性的集合，
     - 
