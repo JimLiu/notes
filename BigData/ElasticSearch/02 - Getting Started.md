@@ -49,7 +49,7 @@
     5. 删除索引
     (1) curl -X DELETE "localhost:9200/customer?pretty&pretty"
     (2) curl -X GET "localhost:9200/_cat/indices?v&pretty"
-    6. 
+    6. 补充：<REST Verb> /<Index>/<Type>/<ID>
  
 
 
