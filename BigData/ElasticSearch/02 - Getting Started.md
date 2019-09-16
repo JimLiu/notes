@@ -6,4 +6,6 @@
     - 近实时分析
 ### Basic Concepts
     - NRT Near Realtime 
+    - Cluster 
+    - Node
     - 
