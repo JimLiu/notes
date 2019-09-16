@@ -70,7 +70,18 @@
     curl -X DELETE "localhost:9200/customer/_doc/2?pretty&pretty"
 
     3. 批处理
-    
+    (1) curl -X POST "localhost:9200/customer/_doc/_bulk?pretty&pretty" -H 'Content-Type: application/json' -d'
+    {"index":{"_id":"1"}}
+    {"name": "John Doe" }
+    {"index":{"_id":"2"}}
+    {"name": "Jane Doe" }'
+    (2) curl -X POST "localhost:9200/customer/_doc/_bulk?pretty&pretty" -H 'Content-Type: application/json' -d'
+    {"update":{"_id":"1"}}
+{"doc": { "name": "John Doe becomes Jane Doe" } }
+{"delete":{"_id":"2"}}
+'
+
+
     
  
 
