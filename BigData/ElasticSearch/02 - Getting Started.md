@@ -10,4 +10,6 @@
     3. Node
     4. Index
        Index 是属性的集合，
-    5. T
+    5. Type (Deprecated in 6.0.0) 
+       相当于表名
+    6. 
