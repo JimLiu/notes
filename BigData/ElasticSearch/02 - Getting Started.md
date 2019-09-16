@@ -28,5 +28,8 @@
     (4) 执行 一些高级操作：paging, sorting, filtering, scripting, aggregations, and etc...
     
     1. 集群健康
-    (1) 查看集群
+    (1) 查看集群情况：curl -X GET "localhost:9200/_cat/nodes?v&pretty"
+    (2) 查看集群节点：curl -X GET "localhost:9200/_cat/nodes?v&pretty"
+
+
       
