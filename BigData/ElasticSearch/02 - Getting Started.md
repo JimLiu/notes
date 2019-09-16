@@ -30,6 +30,11 @@
     1. 集群健康
     (1) 查看集群情况：curl -X GET "localhost:9200/_cat/nodes?v&pretty"
     (2) 查看集群节点：curl -X GET "localhost:9200/_cat/nodes?v&pretty"
-
+   
+    2. 查看所有索引
+    (1) curl -X GET "localhost:9200/_cat/indices?v&pretty"
+    
+    3. 创建索引
+    (1) 
 
       
