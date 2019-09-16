@@ -19,3 +19,7 @@
        下载地址：https://www.elastic.co/cn/downloads/past-releases#elasticsearch 
     2. 启动：cd elasticsearch-6.3.2/bin
        或者启动时指定集群以及节点名称：./elasticsearch -Ecluster.name=my_cluster_name -Enode.name=my_node_name
+
+### 查看集群
+    1. 集群健康
+      
