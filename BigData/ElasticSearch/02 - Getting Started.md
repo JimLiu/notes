@@ -52,7 +52,13 @@
     6. 补充：<REST Verb> /<Index>/<Type>/<ID>
    
 ### 修改数据
-    1. 
+    1. 更新文档
+    curl -X POST "localhost:9200/customer/_doc/1/_update?pretty&pretty" -H 'Content-Type: application/json' -d'
+{
+  "doc": { "name": "Jane Doe" }
+}
+'
+
  
 
 
