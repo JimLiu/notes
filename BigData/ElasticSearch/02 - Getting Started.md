@@ -16,4 +16,6 @@
     7. Shards & Replicas
 ### Installation
     1. Elasticsearch 要求 Java 8. 推荐使用： Oracle JDK version 1.8.0_131。
+       下载地址：https://www.elastic.co/cn/downloads/past-releases#elasticsearch
+       
     2. 
