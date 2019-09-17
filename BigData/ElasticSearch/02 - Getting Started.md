@@ -153,7 +153,29 @@
         }
     }
     }'
-    (7) 
+    (7) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+    "query": {
+        "bool": {
+        "should": [
+            { "match": { "address": "mill" } },
+            { "match": { "address": "lane" } }
+        ]
+        }
+    }
+    }'
+   (8) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+    "query": {
+        "bool": {
+        "must_not": [
+            { "match": { "address": "mill" } },
+            { "match": { "address": "lane" } }
+        ]
+        }
+    }
+    }
+    '
 
 
 
