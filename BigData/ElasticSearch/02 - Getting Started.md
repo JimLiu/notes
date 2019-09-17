@@ -82,7 +82,11 @@
 
 ### Exploring Data
     数据集地址：https://github.com/elastic/elasticsearch/blob/master/docs/src/test/resources/accounts.json?raw=true
-    导入数据：
+    导入数据：curl -H "Content-Type: application/json" -XPOST "localhost:9200/bank/_doc/_bulk?pretty&refresh" --data-binary "@accounts.json"
+    查看索引：curl "localhost:9200/_cat/indices?v"
+    
+    1. Search Api
+    (1)  
 
     
  
