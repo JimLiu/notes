@@ -80,6 +80,8 @@
     {"doc": { "name": "John Doe becomes Jane Doe" } }
     {"delete":{"_id":"2"}}'
 
+### Exploring Data
+    1. 
 
     
  
