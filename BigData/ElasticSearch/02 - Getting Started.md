@@ -177,7 +177,21 @@
     }
     '
     (9) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+    "query": {
+        "bool": {
+        "must": [
+            { "match": { "age": "40" } }
+        ],
+        "must_not": [
+            { "match": { "state": "ID" } }
+        ]
+        }
+    }
+    }
+    '
 
+   
 
 
 
