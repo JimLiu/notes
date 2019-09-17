@@ -96,10 +96,24 @@
 
     2. Introducing the Query Language 
     (1) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
-{
-  "query": { "match_all": {} }
-}
-'
+    {
+       "query": { "match_all": {} }
+    }'
+
+    (2) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+       "query": { "match_all": {} },
+       "size": 1
+    }'
+
+    (3) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+      "query": { "match_all": {} },
+      "from": 10,
+  "size": 10
+}'
+
+
 
     
  
