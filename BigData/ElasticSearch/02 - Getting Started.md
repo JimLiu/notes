@@ -90,10 +90,9 @@
     {
       "query": { "match_all": {} },
       "sort": [
-    { "account_number": "asc" }
-  ]
-}
-'
+        { "account_number": "asc" }
+      ]
+    }'
  
 
     
