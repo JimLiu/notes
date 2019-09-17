@@ -81,7 +81,8 @@
     {"delete":{"_id":"2"}}'
 
 ### Exploring Data
-    1. 
+    数据集地址：https://github.com/elastic/elasticsearch/blob/master/docs/src/test/resources/accounts.json?raw=true
+    导入数据：
 
     
  
