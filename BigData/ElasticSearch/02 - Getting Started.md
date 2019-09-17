@@ -93,7 +93,13 @@
         { "account_number": "asc" }
       ]
     }'
- 
+
+    2. Introducing the Query Language 
+    (1) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+  "query": { "match_all": {} }
+}
+'
 
     
  
