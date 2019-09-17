@@ -139,10 +139,21 @@
       "query": { "match": { "address": "mill lane" } }
     }'
     (5) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
-{
-  "query": { "match_phrase": { "address": "mill lane" } }
-}
-'
+    {
+      "query": { "match_phrase": { "address": "mill lane" } }
+    }'
+    (6) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+    "query": {
+        "bool": {
+        "must": [
+            { "match": { "address": "mill" } },
+            { "match": { "address": "lane" } }
+        ]
+        }
+    }
+    }'
+    (7) 
 
 
 
