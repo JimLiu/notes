@@ -127,9 +127,18 @@
     }'
 
     (2) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
-{
+    {
       "query": { "match": { "account_number": 20 } }
-}'
+    }'
+    (3) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+      "query": { "match": { "address": "mill" } }
+    }'
+    (4) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+      "query": { "match": { "address": "mill lane" } }
+    }'
+
 
 
 
