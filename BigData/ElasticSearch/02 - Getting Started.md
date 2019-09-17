@@ -18,7 +18,7 @@
     1. Elasticsearch 要求 Java 8. 推荐使用： Oracle JDK version 1.8.0_131。
        下载地址：https://www.elastic.co/cn/downloads/past-releases#elasticsearch 
     2. 启动：cd elasticsearch-6.3.2/bin
-       或者启动时指定集群以及节点名称：./elasticsearch -Ecluster.name=my_cluster_name -Enode.name=my_node_name
+       或者启动时指定集群以及节点名称：$ES_HOME/bin/elasticsearch -Ecluster.name=cluster_xxx -Enode.name=node_xxx
 
 ### 查看集群
     通过 es 提供的 api:
