@@ -120,7 +120,18 @@
     }'
  
     3. Executing Searches
-    (1) 
+    (1) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+      "query": { "match_all": {} },
+      "_source": ["account_number", "balance"]
+    }'
+
+    (2) curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+      "query": { "match": { "account_number": 20 } }
+}'
+
+
 
 
     
