@@ -14,9 +14,8 @@ def main(args: Array[String]): Unit = {
         val str = """[{"f1":"v1","f2":"v2"},{"f3":"v3","f4":"v4"},null,null]"""
         val jsv: Seq[Option[JsValue]] = str.parseJson.convertTo[List[Option[JsValue]]]
         println(jsv.toString())
-    }
+}
 ```
-
 5. spray-json 源码分析
     http://fangjian0423.github.io/2015/12/23/scala-spray-json/
 5. akka http 入门项目
