@@ -20,4 +20,5 @@ def main(args: Array[String]): Unit = {
     http://fangjian0423.github.io/2015/12/23/scala-spray-json/
 5. akka http 入门项目
     https://developer.lightbend.com/guides/akka-http-quickstart-scala/
-6. 
+6. akka 外部的 object 使用 logger:
+    1)
