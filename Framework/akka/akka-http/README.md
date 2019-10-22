@@ -21,4 +21,5 @@ def main(args: Array[String]): Unit = {
 5. akka http 入门项目
     https://developer.lightbend.com/guides/akka-http-quickstart-scala/
 6. akka 外部的 object 使用 logger:
-    1)
+    1): https://stackoverflow.com/questions/10157642/akka-logging-outside-actor
+    2): https://github.com/w11k/slf4s
