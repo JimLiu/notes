@@ -2,7 +2,16 @@
 
 ### 代码示例
 ```Scala
-icit object CJsonFormat extends RootJsonFormat[C] {
+import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
+import spray.json._
+
+object TestSprayJson extends DefaultJsonProtocol with SprayJsonSupport with NullOptions {
+
+    case class C()
+    class C1(val name: String) extends C()
+    class C2(val age: Int) extends C()
+    class C3(val name: String, val age: Int) extends C()
+    implicit object CJsonFormat extends RootJsonFormat[C] {
         def write(c: C) = {
             c match {
                 case t1: C1 => JsObject("name" -> JsString(t1.name))
@@ -48,4 +57,5 @@ icit object CJsonFormat extends RootJsonFormat[C] {
         println(obj.toJson.prettyPrint)
     }
 }
+
 ```
