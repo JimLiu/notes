@@ -57,7 +57,7 @@
 
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>
-	<testSourceDirectory>src/test/scala</testSourceDirectory>
+	    <testSourceDirectory>src/test/scala</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
@@ -67,7 +67,7 @@
                     <execution>
                         <id>compile-scala</id>
                         <phase>compile</phase>
-			<configuration>
+			            <configuration>
                             <source>1.8</source>
                             <target>1.8</target>
                         </configuration>
