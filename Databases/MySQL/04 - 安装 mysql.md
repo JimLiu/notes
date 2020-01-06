@@ -31,3 +31,4 @@ default-character-set=utf8
 [mysql]
 default-character-set=utf8
 ```
+10. url: jdbc:mysql://127.0.0.1:3306/fast_etl?useUnicode=true&characterEncoding=UTF-8&useSSL=false
