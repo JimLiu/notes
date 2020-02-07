@@ -14,4 +14,4 @@ $KAFKA_HOME/bin/kafka-console-consumer.sh \
 
 ### 计算 group id 对应的 partition
     Math.abs("Fast-ETL-Example-jingqi-test".hashCode) % 50
-    ypw
+    // 以上命令可以在 scala 命令行下执行.
