@@ -15,3 +15,6 @@ $KAFKA_HOME/bin/kafka-console-consumer.sh \
 ### 计算 group id 对应的 partition
     Math.abs("Fast-ETL-Example-jingqi-test".hashCode) % 50
     // 以上命令可以在 scala 命令行下执行.
+
+### 其它
+    1. 默认情况下, __consumer_offsets 对消息保留一天.
