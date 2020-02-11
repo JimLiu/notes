@@ -8,4 +8,5 @@
        比如: yum -y install gcc
        yum 只需要提供包名就行. 不用提供包全名
 ## 升级
-    2. yum -
+    1. yum -y update $包名
+       -- 选项同上 
