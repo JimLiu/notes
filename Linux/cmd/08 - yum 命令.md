@@ -15,6 +15,6 @@
     1. yum -y remove $包名 # 不建议使用这个命令卸载相应软件
 
 ## yum 软件组管理命令
-    1. yum grouplist # 列出所有可用的
-    2. yum groupinstall
-    3. yum groupremove
+    1. yum grouplist # 列出所有可用的软件组列表
+    2. yum groupinstall $软件组名 #安装指定软件组 
+    3. yum groupremove 软件组名
