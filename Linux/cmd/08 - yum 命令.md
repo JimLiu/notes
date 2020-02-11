@@ -7,4 +7,5 @@
        选项: -y 自助回答 yes
        比如: yum -y install gcc
        yum 只需要提供包名就行. 不用提供包全名
-    2. 
+## 升级
+    2. yum -
