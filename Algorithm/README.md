@@ -29,4 +29,23 @@
             Map = [Hash Map, Tree Map] 
         }     
     }
-## 
+## 数据结构
+    1. Array
+    2Stack / Queue
+    PriorityQueue (heap)
+    LinkedList (single, double)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
