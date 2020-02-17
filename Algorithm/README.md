@@ -42,7 +42,15 @@
     10. LRU Cache
 ## Algorithm
     1. General Coding
-    2. In-order / Pre-order / Post-order 
+    2. In-order / Pre-order / Post-order traversal
+    3. Greedy
+    4. Recursion / Backtrace
+    5. Breadth-first search
+    6. Depth-first search
+    7. Divide and Conquer
+    8. Dynamic Programming
+    9. Binary Search
+    10. Gra 
     
 
 
