@@ -23,6 +23,10 @@
 ## 知识结构
    {
         Abstract data type {
-            Stack {}
+            Stack = [ vector ]
+            Queue {
+                Linked List
+           
+ 
         }     
    }
