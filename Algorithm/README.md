@@ -16,4 +16,6 @@
 ## 在线编程
     1. 在线编程白板: http://collabedit.com
 ## 书籍推荐
-    1. << Outliers >> 
+    1. << Outliers >> 异类-不一样的成功启示录
+       1) 
+    2. 
