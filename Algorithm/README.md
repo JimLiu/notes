@@ -31,9 +31,12 @@
     }
 ## 数据结构
     1. Array
-    2Stack / Queue
-    PriorityQueue (heap)
-    LinkedList (single, double)
+    2. Stack / Queue
+    3. PriorityQueue (heap)
+    4. LinkedList (single, double)
+    5. Tree / Binary Tree
+    6. Hash Table
+    7. 
     
 
 
