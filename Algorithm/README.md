@@ -50,7 +50,7 @@
     7. Divide and Conquer
     8. Dynamic Programming
     9. Binary Search
-    10. Gra 
+    10. Graph 
     
 
 
