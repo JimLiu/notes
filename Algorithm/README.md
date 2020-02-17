@@ -24,9 +24,7 @@
    {
         Abstract data type {
             Stack = [ vector ]
-            Queue {
-                Linked List
-           
- 
+            Queue = [Linked List, Priority Queue { heap }]
+          
         }     
    }
