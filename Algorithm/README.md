@@ -21,4 +21,8 @@
        2) 反复练习
        3) 反馈
 ## 知识结构
-   
+   {
+        Abstract data type {
+            Stack {}
+        }     
+   }
