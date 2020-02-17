@@ -35,8 +35,14 @@
     3. PriorityQueue (heap)
     4. LinkedList (single, double)
     5. Tree / Binary Tree
-    6. Hash Table
-    7. 
+    6. HashTable
+    7. Disjoint Set
+    8. Trie
+    9. BloomFilter
+    10. LRU Cache
+## Algorithm
+    1. General Coding
+    2. In-order / Pre-order / Post-order 
     
 
 
