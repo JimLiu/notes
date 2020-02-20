@@ -65,7 +65,12 @@ def checknode(val v: node) = {
 ## 回溯算法的改进
 ```scala
 def expand(val v: node) = {
-  val        
+  val u: node
+  for(u <- v.children){
+    if(promising(u)){
+      
+    }
+  }       
 }
 ```
 
