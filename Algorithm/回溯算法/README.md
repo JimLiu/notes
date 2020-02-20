@@ -49,7 +49,7 @@ void depth_first_tree_search(node v){
 
 ## 回溯的一般算法
 ```scala
-def checknode(node v) = {
+def checknode(val v: node) = {
   var u: node
   if(promising(v)){         // 如果 v 满足限制条件
     if(satisfied(v)){       // 查看 v 是否有一个答案
@@ -62,7 +62,12 @@ def checknode(node v) = {
   }
 }
 ```
-
+## 回溯算法的改进
+```scala
+def expand(val v: node) = {
+  val        
+}
+```
 
 
 
