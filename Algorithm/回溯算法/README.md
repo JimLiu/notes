@@ -26,6 +26,7 @@ void depth_first_tree_search(node v){
     |  |- 0
     |  |  |- 0
     |  |  |- 1
+    |  |
     |  |- 1
     |     |- 0
     |     |- 1
@@ -33,6 +34,7 @@ void depth_first_tree_search(node v){
        |- 0
        |  |- 0
        |  |- 1
+       |
        |- 1 
           |- 0
           |- 1
