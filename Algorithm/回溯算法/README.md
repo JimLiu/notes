@@ -13,5 +13,5 @@ void depth_first_tree_search(node v){
     }
 }
 ```
-  
+    
     1. 走迷宫的问题, 用深度优先搜索算法, 其实就是回溯算法
