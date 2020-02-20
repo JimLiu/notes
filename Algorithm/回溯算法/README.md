@@ -44,7 +44,12 @@ void depth_first_tree_search(node v){
 ## 回溯的一般算法
 ```java
 void checknode(node v){
- node 
+  node u;
+  if(promising(v)){
+    if(satisfied(v)){
+      
+    }
+  }
 }
 ```
 
