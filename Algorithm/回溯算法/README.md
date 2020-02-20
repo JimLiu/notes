@@ -42,12 +42,16 @@ void depth_first_tree_search(node v){
 有没有希望, 如果没有希望, 则回溯到该节点的父节点. 这称为状态空间树的修剪(pruning, 由已访问节点组成的子树称为修剪后的状态空间树).
 
 ## 回溯的一般算法
-```java
+```scala
 void checknode(node v){
   node u;
-  if(promising(v)){ // 如果 v 满足限制条件
+  if(promising(v)){   // 如果 v 满足限制条件
     if(satisfied(v)){ // 查看 v 是否有一个答案
-      exposeAnswer()
+      exposeAnswer(v)  // 给出答案
+    }else{
+      for(u <- v.children){
+        
+      }
     }
   }
 }
