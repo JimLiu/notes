@@ -5,8 +5,13 @@
     回溯算法是一种经过修改的尝试优先查找方法. 但是它是在树中查找.
     伪代码如下: 
 ```java
-void depth_first
-
+void depth_first(node v){
+    node v;
+    visit(v);
+    for(u in v 的子节点){
+        depth_first
+    }
+}
 ```
 
 
