@@ -45,12 +45,12 @@ void depth_first_tree_search(node v){
 ```scala
 def  checknode(node v) = {
   var u: node
-  if(promising(v)){   // 如果 v 满足限制条件
-    if(satisfied(v)){ // 查看 v 是否有一个答案
-      exposeAnswer(v)  // 给出答案
-    }else{
-      for(u <- v.children){ //遍历所有的 v 的子节点
-        checknode(u) // 递归调用.
+  if(promising(v)){         // 如果 v 满足限制条件
+    if(satisfied(v)){       // 查看 v 是否有一个答案
+      exposeAnswer(v)       // 给出答案
+    }else{                  // 如果不满足限制条件
+      for(u <- v.children){ // 遍历所有的 v 的子节点
+        checknode(u)        // 递归调用.
       }
     }
   }
