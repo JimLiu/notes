@@ -2,6 +2,8 @@
 
 ``` scala
   def binary(val n: Int){
-  
+      if(n < 1){
+     
+      }
   }
 ``` 
