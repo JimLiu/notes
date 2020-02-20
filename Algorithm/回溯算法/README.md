@@ -36,3 +36,17 @@ void depth_first_tree_search(node v){
        |- 1 
           |- 0
           |- 1
+## 回溯 backtracking
+    回溯过程是指, 在确定一个节点只会引向
+    
+
+
+
+
+
+
+
+
+
+
+
