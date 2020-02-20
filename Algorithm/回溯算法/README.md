@@ -68,7 +68,7 @@ def expand(val v: node) = {
   val u: node
   for(u <- v.children){
     if(promising(u)){
-      
+      if()
     }
   }       
 }
