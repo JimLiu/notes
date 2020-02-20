@@ -69,9 +69,9 @@ def expand(val v: node) = {
   for(u <- v.children){
     if(promising(u)){
       if(satisfied(u)){
-        exposeAnswer(v) 
+        exposeAnswer(u) 
       }else{
-        expan(u)
+        expand(u)
       }
     }
   }       
