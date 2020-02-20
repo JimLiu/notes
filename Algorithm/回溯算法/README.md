@@ -45,9 +45,9 @@ void depth_first_tree_search(node v){
 ```java
 void checknode(node v){
   node u;
-  if(promising(v)){
-    if(satisfied(v)){
-      
+  if(promising(v)){ // 如果 v 满足限制条件
+    if(satisfied(v)){ // 查看 v 是否有一个答案
+      exposeAnswer()
     }
   }
 }
