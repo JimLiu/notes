@@ -5,14 +5,13 @@
     回溯算法是一种经过修改的尝试优先查找方法. 但是它是在树中查找.
     伪代码如下: 
 ```java
-void depth_first(node v){
+void depth_first_tree_search(node v){
     node v;
     visit(v);
     for(u in v 的子节点){
-        depth_first
+        depth_first_tree_search(u);
     }
 }
 ```
-
-
+   
     1. 走迷宫的问题, 用深度优先搜索算法, 其实就是回溯算法
