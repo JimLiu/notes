@@ -6,13 +6,13 @@
     eg: 
     f() -> g1() -> g2() -> g3() -> ... -> gm() -> f()
 ## 嵌套递归
-    样例:
 ```scala
+// 样例
 def h(n) = {
   n match {
     case 0 => 
-    case 1 =>
-    case 
+    case x if x > 4 => n
+    case _ => h(2 + h(2n))
   }
 }
 ```
