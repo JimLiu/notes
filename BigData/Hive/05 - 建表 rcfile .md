@@ -12,6 +12,19 @@ ROW FORMAT SERDE
 WITH SERDEPROPERTIES ( 'field.delim' = '\1' , 'collected.delim' = '\2', 'mapkey.delim' = '\3', 'line.delim' = '\n')
    STORED AS rcfile;
 ```
+
+### hive parquet table
+``` sql
+create external table jingqi_test.jingqi_parquet_test(
+    f1 string,
+    f2 bigint
+) PARTITIONED BY (
+  `f3` string )
+STORED AS parquet
+location 'hdfs:///user/jingqi/temp/output'
+TBLPROPERTIES ("orc.compress"="SNAPPY"); 
+```
+
 ### eg
 ```SQL
 create table if not exists test_one_model_two_cube(
