@@ -19,6 +19,8 @@
     vi /etc/sysconfig/selinux 设置SELINUX=disable并重启机器
     4) 为每个机器创建ambari账号并设置密码
     useradd ambari && echo “ambari” | passwd --stdin ambari 
+    5) 在server上安装本地源制作的相关工具 yum-utils createrepo
+    yum install yum-utils createrepo
 
 ### 4. 问题
 #### 4.1 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
