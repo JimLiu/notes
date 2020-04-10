@@ -69,7 +69,9 @@
      GRANT ALL PRIVILEGES ON oozie.* TO 'oozie'@'localhost';
      FLUSH PRIVILEGES; 
 ### 安装 ambri
-    
+    yum install -y ambari-server
+    ambari-server setup
+    ambari-server start
 ### 问题
 #### 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
     如果是hive执行下面命令，注意替换2.x中的版本
