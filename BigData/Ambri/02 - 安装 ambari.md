@@ -4,13 +4,19 @@
     下载: http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.1.0/ambari.repo 放到 /etc/yum.repos.d .需要外网环境.
 #### 方法 2 本地 yum 源
 ##### 1. 初始化环境
-    安装启动http、ntpd服务
-        yum install httpd ntpd 
-        service httpd start
-        service ntpd start
-        如果设置开机启动 chkconfig httpd on, chkconfig ntpd on
-     
-
+    1) 安装启动http、ntpd服务
+    yum install httpd ntpd 
+    service httpd start
+    service ntpd start
+    如果设置开机启动 chkconfig httpd on, chkconfig ntpd on
+    2) 检查DNS和NSCD
+    Ambari在安装时需要配置全域名，所以需要检查DNS。每台机器需要配置/etc/hosts以及/etc/sysconfig/network中的hostname 
+    3) 关闭防火墙
+    chkconfig iptables off 
+        /etc/init.d/iptables stop
+        关闭SELinux
+        setenforce 0
+        vi /etc/sysconfig/selinux 设置SELINUX=disable并重启机器
 
 ### 4. 问题
 #### 4.1 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
