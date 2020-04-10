@@ -2,8 +2,14 @@
 ### yum 源配置
 #### 方法 1 公共 yum 源
     下载: http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.1.0/ambari.repo 放到 /etc/yum.repos.d .需要外网环境.
-#### 本地 yum 源
-##### 1. 初始 
+#### 方法 2 本地 yum 源
+##### 1. 初始化环境
+    安装启动http、ntpd服务
+        yum install httpd ntpd 
+        service httpd start
+        service ntpd start
+        如果设置开机启动 chkconfig httpd on, chkconfig ntpd on
+     
 
 
 ### 4. 问题
