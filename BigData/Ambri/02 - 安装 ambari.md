@@ -13,10 +13,12 @@
     Ambari在安装时需要配置全域名，所以需要检查DNS。每台机器需要配置/etc/hosts以及/etc/sysconfig/network中的hostname 
     3) 关闭防火墙
     chkconfig iptables off 
-        /etc/init.d/iptables stop
-        关闭SELinux
-        setenforce 0
-        vi /etc/sysconfig/selinux 设置SELINUX=disable并重启机器
+    /etc/init.d/iptables stop
+    关闭SELinux
+    setenforce 0
+    vi /etc/sysconfig/selinux 设置SELINUX=disable并重启机器
+    4) 为每个机器创建ambari账号并设置密码
+    useradd ambari && echo “ambari” | passwd --stdin ambari 
 
 ### 4. 问题
 #### 4.1 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
