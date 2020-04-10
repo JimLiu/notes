@@ -18,4 +18,7 @@
     如果在节点上自己安装了mysql高版本，在ambari部署时会出现mysql安装错误，此时注意更改相应节点的部署脚本的依赖检查部分，让mysql检查通过。
     操作更改：/usr/lib/python2.6/site-packages/resource_management/core/providers/package/yumrpm.py的_check_existence方法，如果依赖
     检查name为mysql直接返回true
-#### 4.
+#### 4.5 centos7 ambari页面上看agent已经lost heartbeat
+    修改/etc/ambari-agent/conf/ambari-agent.ini 在[security]下添加force_https_protocol=PROTOCOL_TLSv1_2
+    修改/etc/python/cert-verification.cfg设置verify=disable
+    重启下agent：service ambari-agent restart
