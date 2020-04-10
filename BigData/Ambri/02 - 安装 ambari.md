@@ -33,12 +33,18 @@
     在 /var/www/html下执行 createrepo ambari 创建仓库信息文件
 
 ##### 3. 配置本地Ambari、HDP以及HDP-UTILS的源
-        下载公共库的repo文件到/etc/yum.repos.d/目录下，然后修改其中的baseurl即可
+    下载公共库的repo文件到/etc/yum.repos.d/目录下，然后修改其中的baseurl即可
         wget http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.1.0/ambari.repo
         wget http://public-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.2.9.0/hdp.repo
+    将上面两个repo文件分别分发到安装机器的对应目录下。
+    然后执行yum操作
+        yum clean all
+        yum list update
+        yum makecache
+        yum repolist
+####   
 
-
-### 4. 问题
+### 问题
 #### 4.1 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
     如果是hive执行下面命令，注意替换2.x中的版本
     ln -s /usr/share/java/mysql-connector-java.jar /usr/hdp/2.x/hive/lib/mysql-connector-java.jar
