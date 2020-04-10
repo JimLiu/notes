@@ -9,4 +9,8 @@
     spark.driver.extraJavaOptions      -Dhdp.version=2.6.5.1175
     spark.executor.extraJavaOptions    -Dhdp.version=2.6.5.1175
     spark.yarn.am.extraJavaOptions     -Dhdp.version=2.6.5.1175
-### 补充 jersey
+### 补充 jersey 包
+    jersey-client-1.9.jar
+    jersey-core-1.9.jar
+    jersey-server-1.9.jar
+### spark
