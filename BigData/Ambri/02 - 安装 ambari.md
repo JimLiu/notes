@@ -8,8 +8,10 @@
     ambari-server setup --jdbc-db=mysql --jdbc-driver=/usr/share/java/mysql-connector-java.jar
     然后在amber的页面上重启。
 #### 4.2 
-    如果配置ambari hive view时候出现mysql报错，注意替换/var/lib/ambari-server/resource目录下相应版本的mysql的jdbc的mysql-connector-java.jar包。
-####4.3 hiveserver2的authentication的选项注意选择NOSASL，适配uda的代码。
-    4.4 如果在节点上自己安装了mysql高版本，在ambari部署时会出现mysql安装错误，此时注意更改相应节点的部署脚本的依赖检查部分，让mysql检查通过。
+    如果配置ambari hive view时候出现mysql报错，注意替换/var/lib/ambari-server/resource 目录下相应版本的mysql的jdbc的mysql-connector-java.jar包。
+#### 4.3 
+    hiveserver2的authentication的选项注意选择NOSASL
+#### 4.4 
+    如果在节点上自己安装了mysql高版本，在ambari部署时会出现mysql安装错误，此时注意更改相应节点的部署脚本的依赖检查部分，让mysql检查通过。
     操作更改：/usr/lib/python2.6/site-packages/resource_management/core/providers/package/yumrpm.py的_check_existence方法，如果依赖
     检查name为mysql直接返回true
