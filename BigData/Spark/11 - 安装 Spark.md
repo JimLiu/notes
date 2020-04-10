@@ -1,11 +1,12 @@
 ## 安装 Spark
 ### 下载
     https://mirrors.huaweicloud.com/apache/spark/
-### 环境环境变量
+### 配置环境变量
     SPARK_HOME
     HADOOP_HOME
-    
-### 修改 spark-defaults.conf
+    HADOOP_CONF_DIR
+### 修改 spark-defaults.conf, 增加 hdp 配置
     spark.driver.extraJavaOptions      -Dhdp.version=2.6.5.1175
     spark.executor.extraJavaOptions    -Dhdp.version=2.6.5.1175
     spark.yarn.am.extraJavaOptions     -Dhdp.version=2.6.5.1175
+### 补充 jersey
