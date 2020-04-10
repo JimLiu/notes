@@ -1,4 +1,7 @@
 ## 安装 ambari
+
+
+
 ### 4. 问题
 #### 4.1 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
     如果是hive执行下面命令，注意替换2.x中的版本
@@ -15,3 +18,4 @@
     如果在节点上自己安装了mysql高版本，在ambari部署时会出现mysql安装错误，此时注意更改相应节点的部署脚本的依赖检查部分，让mysql检查通过。
     操作更改：/usr/lib/python2.6/site-packages/resource_management/core/providers/package/yumrpm.py的_check_existence方法，如果依赖
     检查name为mysql直接返回true
+#### 4.
