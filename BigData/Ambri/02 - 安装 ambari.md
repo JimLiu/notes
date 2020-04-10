@@ -43,7 +43,31 @@
         yum makecache
         yum repolist
 ####  安装JDK、Python以及Mysql
-     
+     安装java1.7及以上版本和python2.6及以上版本环境
+     安装mysql56以及下载相应的jdbc的jar包
+     Mysql可以作为ambari的数据存储以及hive的元数据存储库，如果安装Oozie，也可以作为Oozie的数据存储。
+     分别创建相应的数据库以及用户密码，进行授权。
+     安装完成后创建ambari数据库及用户，登录root用户执行下面语句：
+     create database ambari character set utf8;  
+     CREATE USER 'ambari'@'%'IDENTIFIED BY 'ambari';
+     CREATE USER 'ambari'@'localhost'IDENTIFIED BY 'ambari';
+     GRANT ALL PRIVILEGES ON ambari.* TO 'ambari'@'%';
+     GRANT ALL PRIVILEGES ON ambari.* TO 'ambari'@'localhost';
+     FLUSH PRIVILEGES;
+     如果要安装Hive，再创建Hive数据库和用户 再执行下面的语句：
+     create database hive character set utf8 ;  
+     CREATE USER 'hive'@'%'IDENTIFIED BY 'hive';
+     CREATE USER 'hive'@'localhost'IDENTIFIED BY 'hive';
+     GRANT ALL PRIVILEGES ON hive.* TO 'hive'@'%';
+     GRANT ALL PRIVILEGES ON hive.* TO 'hive'@'localhost';
+FLUSH PRIVILEGES;
+        如果要安装Oozie，再创建Oozie数据库和用户 再执行下面的语句：
+create database oozie character set utf8 ;  
+CREATE USER 'oozie'@'%'IDENTIFIED BY 'oozie';
+CREATE USER 'oozie'@'localhost'IDENTIFIED BY 'oozie';
+GRANT ALL PRIVILEGES ON oozie.* TO 'oozie'@'%';
+GRANT ALL PRIVILEGES ON oozie.* TO 'oozie'@'localhost';
+FLUSH PRIVILEGES; 
 
 ### 问题
 #### 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
