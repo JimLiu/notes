@@ -14,6 +14,6 @@
 ### 补充 jersey 包
     jersey-client-1.9.jar
     jersey-core-1.9.jar
-    jersey-server-1.9.jar
+    注: 不要添加 jersey-server-1.9.jar 这个 jar 包, 会与 spark ui 冲突导致 spark ui 上无法查看 all exe
 ### spark-shell 测试
     spark-shell --master yarn
