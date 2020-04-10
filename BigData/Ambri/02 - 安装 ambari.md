@@ -21,6 +21,21 @@
     useradd ambari && echo “ambari” | passwd --stdin ambari 
     5) 在server上安装本地源制作的相关工具 yum-utils createrepo
     yum install yum-utils createrepo
+##### 2. 下载安装资源
+    下载Ambar 2.4.1以及HDP 2.2.9.0和HDP-UTILS 1.1.0.20的安装资源，放到server机器上
+        wget http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.1.0/ambari-2.4.1.0-centos6.tar.gz
+        wget http://public-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.2.9.0/HDP-2.2.9.0-centos6-rpm.tar.gz
+        wget http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.20/repos/centos6/HDP-UTILS-1.1.0.20-centos6.tar.gz
+          
+    在httpd的根目录下默认/var/www/html下创建ambari目录，并将下载的三个压缩包分别解压到目录下
+    验证是否可用 访问 http://$ip/ambari  会显示出目录下的内容
+        
+    在 /var/www/html下执行 createrepo ambari 创建仓库信息文件
+
+    3. 配置本地Ambari、HDP以及HDP-UTILS的源
+        下载公共库的repo文件到/etc/yum.repos.d/目录下，然后修改其中的baseurl即可
+        wget http://public-repo-1.hortonworks.com/ambari/centos6/2.x/updates/2.4.1.0/ambari.repo
+        wget http://public-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.2.9.0/hdp.repo
 
 ### 4. 问题
 #### 4.1 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
