@@ -60,15 +60,16 @@
      CREATE USER 'hive'@'localhost'IDENTIFIED BY 'hive';
      GRANT ALL PRIVILEGES ON hive.* TO 'hive'@'%';
      GRANT ALL PRIVILEGES ON hive.* TO 'hive'@'localhost';
-FLUSH PRIVILEGES;
-        如果要安装Oozie，再创建Oozie数据库和用户 再执行下面的语句：
-create database oozie character set utf8 ;  
-CREATE USER 'oozie'@'%'IDENTIFIED BY 'oozie';
-CREATE USER 'oozie'@'localhost'IDENTIFIED BY 'oozie';
-GRANT ALL PRIVILEGES ON oozie.* TO 'oozie'@'%';
-GRANT ALL PRIVILEGES ON oozie.* TO 'oozie'@'localhost';
-FLUSH PRIVILEGES; 
-
+     FLUSH PRIVILEGES;
+     如果要安装Oozie，再创建Oozie数据库和用户 再执行下面的语句：
+     create database oozie character set utf8 ;  
+     CREATE USER 'oozie'@'%'IDENTIFIED BY 'oozie';
+     CREATE USER 'oozie'@'localhost'IDENTIFIED BY 'oozie';
+     GRANT ALL PRIVILEGES ON oozie.* TO 'oozie'@'%';
+     GRANT ALL PRIVILEGES ON oozie.* TO 'oozie'@'localhost';
+     FLUSH PRIVILEGES; 
+### 安装 ambri
+    
 ### 问题
 #### 在安装过程中如果oozie、hive等的由于jdbc的jar包原因未能安装成功，需要在hive的lib下拷贝关联jdbc的jar包。
     如果是hive执行下面命令，注意替换2.x中的版本
